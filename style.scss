@@ -1,3 +1,26 @@
-.html {
-    color: red;
+$nav-color: #333645;
+$white: #fff;
+
+.body {
+    font-size: 1rem;
+}
+
+.main-nav {
+    display:flex;
+    height: 99.01px;
+    width: auto;
+    background-color: $nav-color;
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    color: $white;
+    font-family: Poppins,sans-serif;
+    padding: 19px 20px 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-nav a::first-line {
+    font-size: 0.625rem;
 }

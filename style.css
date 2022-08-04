@@ -1,12 +1,23 @@
-.html {
-  color: red;
+.body {
+  font-size: 1rem;
 }
 
+.main-nav {
+  display: flex;
+  height: 99.01px;
+  width: auto;
+  background-color: #333645;
+  text-transform: uppercase;
+}
 
+.main-nav a {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  padding: 19px 20px 18px;
+  text-align: center;
+  text-decoration: none;
+}
 
-
-
-
-
-
-/*# sourceMappingURL=style.css.map */
+.main-nav a::first-line {
+  font-size: 0.625rem;
+}/*# sourceMappingURL=Style.css.map */
