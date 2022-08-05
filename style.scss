@@ -1,12 +1,20 @@
 $nav-color: #333645;
 $white: #fff;
-
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
 .body {
     font-size: 1rem;
     letter-spacing: 0.4px;
+    overflow-x:hidden;
 }
 
 .main-nav {
+
+    padding-left: 56.6px;
+    padding-right: 56.6px;
     font-size: 1.125rem;
     display: flex;
     justify-content: space-between;
@@ -21,15 +29,100 @@ $white: #fff;
 .main-nav a {
     color: $white;
     font-family: Poppins,sans-serif;
-    padding: 19px 20px 18px;
+    padding: 19px 50px 18px;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
     letter-spacing: 0.4px;
 }
 
+#nav-1:hover {
+    background-color: #67809f;
+    .fa-grip {
+        color: #ffffff;
+    }
+}
+
+#nav-2:hover {
+    background-color: #4183d7;
+    .fa-display {
+        color: #ffffff;
+    }
+}
+
+#nav-3:hover {
+    background-color: #2ecc71;
+    .fa-chart-simple {
+        color: #ffffff;
+    }
+}
+
+#nav-4:hover {
+    background-color: #d64541;
+    .fa-phone {
+        color: #ffffff;
+    }
+}
+
+#nav-5:hover {
+    background-color: #926fa7;
+    .fa-code {
+        color: #ffffff;
+    }
+}
+
+#nav-6:hover {
+    background-color: #f62459;
+    .fa-shield-halved {
+        color: #ffffff;
+    }
+}
+
+#nav-7:hover {
+    background-color: #ce4125;
+    .fa-graduation-cap {
+        color: #ffffff;
+    }
+}
+
 .small {
     margin-top: 10px;
     margin-bottom: -20px;
     font-size: 0.6rem;
+}
+
+.fa-grip {
+    color: #67809f;
+}
+
+.fa-display {
+    color: #4183d7;
+}
+
+.fa-chart-simple {
+    color: #2ecc71;
+}
+
+.fa-phone {
+    color: #d64541;
+}
+
+.fa-code {
+    color: #926fa7;
+}
+
+.fa-shield-halved {
+    color: #f62459;
+}
+
+.fa-graduation-cap {
+    color: #ce4125;
+}
+
+//media queries
+
+@media only screen and (max-width: 992px) {
+    .main-nav {
+        display: none;
+    }
 }
