@@ -10,6 +10,7 @@
   overflow-x: hidden;
 }
 
+/*! Navigation Bar */
 .main-nav {
   padding-left: 56.6px;
   padding-right: 56.6px;
@@ -89,6 +90,7 @@
   font-size: 0.6rem;
 }
 
+/*! Font Awesome */
 .fa-grip {
   color: #67809f;
 }
@@ -117,6 +119,7 @@
   color: #ce4125;
 }
 
+/*! Media Queries */
 @media only screen and (max-width: 992px) {
   .main-nav {
     display: none;

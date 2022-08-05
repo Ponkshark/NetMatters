@@ -1,5 +1,8 @@
+// Variables
+
 $nav-color: #333645;
 $white: #fff;
+
 * { 
     margin: 0; 
     padding: 0; 
@@ -10,6 +13,8 @@ $white: #fff;
     letter-spacing: 0.4px;
     overflow-x:hidden;
 }
+
+/*! Navigation Bar */
 
 .main-nav {
 
@@ -91,6 +96,8 @@ $white: #fff;
     font-size: 0.6rem;
 }
 
+/*! Font Awesome */
+
 .fa-grip {
     color: #67809f;
 }
@@ -119,7 +126,7 @@ $white: #fff;
     color: #ce4125;
 }
 
-//media queries
+/*! Media Queries */
 
 @media only screen and (max-width: 992px) {
     .main-nav {
