@@ -22,7 +22,7 @@ $white: #fff;
     padding-right: 56.6px;
     font-size: 1.125rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 99.01px;
     width: auto;
     background-color: $nav-color;
@@ -34,12 +34,63 @@ $white: #fff;
 .main-nav a {
     color: $white;
     font-family: Poppins,sans-serif;
-    padding: 19px 50px 18px;
+    padding: 27px 50px 18px;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
     letter-spacing: 0.4px;
 }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #526781;
+    width: 175px;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: $white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: none;
+  }
+  
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 #nav-1:hover {
     background-color: #67809f;
