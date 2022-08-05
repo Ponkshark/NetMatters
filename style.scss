@@ -3,14 +3,19 @@ $white: #fff;
 
 .body {
     font-size: 1rem;
+    letter-spacing: 0.4px;
 }
 
 .main-nav {
-    display:flex;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-between;
     height: 99.01px;
     width: auto;
     background-color: $nav-color;
     text-transform: uppercase;
+    align-items: flex-end;
+    letter-spacing: 0.4px;
 }
 
 .main-nav a {
@@ -18,9 +23,12 @@ $white: #fff;
     font-family: Poppins,sans-serif;
     padding: 19px 20px 18px;
     text-align: center;
+    vertical-align: middle;
     text-decoration: none;
+    letter-spacing: 0.4px;
 }
 
-.main-nav a::first-line {
-    font-size: 0.625rem;
+.small {
+    margin-bottom: -20px;
+    font-size: 0.6rem;
 }
