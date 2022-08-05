@@ -1,13 +1,92 @@
 * {
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0.4px;
 }
 
 .body {
   font-size: 1rem;
   letter-spacing: 0.4px;
   overflow-x: hidden;
+}
+
+/*! Header */
+#header-img {
+  height: 64.425px;
+  width: 370px;
+  margin-top: 20px;
+  margin-left: 93px;
+}
+
+#support-button {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  height: 56px;
+  width: 141.6px;
+  padding: 5 15px;
+  margin-left: 80px;
+  border: 1px solid transparent;
+  background-color: #4183d7;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+#contact-button {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  height: 56px;
+  width: 149.413px;
+  padding: 5 15px;
+  margin-left: 20px;
+  border: 1px solid transparent;
+  background-color: #999aa2;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+#query {
+  display: inline-block;
+  height: 58px;
+  width: 240px;
+  padding: 5 15px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+}
+
+#form {
+  width: 240px;
+}
+
+#search-button {
+  display: inline-block;
+  font-size: 18px;
+  height: 60px;
+  width: 63px;
+  padding: 7 20px;
+  margin-left: -5px;
+  border: 0px solid transparent;
+  background-color: #999aa2;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+#menu-button {
+  display: inline-block;
+  font-size: 23px;
+  height: 56px;
+  width: 63px;
+  padding: 5 15px;
+  margin-left: 20px;
+  border: 0px solid transparent;
+  background-color: #333645;
+  border-radius: 3px;
+  font-weight: 400;
 }
 
 /*! Navigation Bar */
@@ -199,6 +278,22 @@
 
 .fa-graduation-cap {
   color: #ce4125;
+}
+
+.fa-computer-mouse {
+  color: #fff;
+}
+
+.fa-paper-plane {
+  color: #fff;
+}
+
+.fa-magnifying-glass {
+  color: #fff;
+}
+
+.fa-bars {
+  color: #fff;
 }
 
 /*! Media Queries */
