@@ -186,7 +186,7 @@ p {
   display: none;
   position: absolute;
   width: 167px;
-  z-index: 1;
+  z-index: 6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -344,47 +344,77 @@ p {
 .serv-container a {
   text-decoration: none;
 }
+.serv-container #serv-icon-1, .serv-container #serv-icon-2, .serv-container #serv-icon-3, .serv-container #serv-icon-4, .serv-container #serv-icon-5, .serv-container #serv-icon-6, .serv-container #serv-icon-7 {
+  color: black;
+  font-size: 1.5em;
+}
+.serv-container #serv-icon-1 {
+  background-color: #67809f;
+  text-align: center;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
 .serv-container #serv-block-1 {
   display: block;
-  border: 1px solid black;
   width: 370px;
   height: 314.73px;
 }
 .serv-container #serv-block-2 {
   display: block;
-  border: 1px solid black;
   width: 370px;
   height: 314.73px;
 }
 .serv-container #serv-block-3 {
   display: block;
-  border: 1px solid black;
   width: 370px;
   height: 314.73px;
 }
 .serv-container #serv-block-4 {
   display: block;
-  border: 1px solid black;
   width: 270px;
   height: 313.88px;
 }
 .serv-container #serv-block-5 {
   display: block;
-  border: 1px solid black;
   width: 270px;
   height: 313.88px;
 }
 .serv-container #serv-block-6 {
   display: block;
-  border: 1px solid black;
   width: 270px;
   height: 313.88px;
 }
 .serv-container #serv-block-7 {
   display: block;
-  border: 1px solid black;
   width: 270px;
   height: 313.88px;
+}
+.serv-container .serv-block {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+.serv-container .serv-block:hover {
+  top: -10px;
+  transition: 0.5s ease;
+  border-color: transparent;
+}
+.serv-container .serv-block:hover p {
+  color: #fff;
+}
+.serv-container .serv-block:hover h2 {
+  color: #fff;
+}
+.serv-container #serv-block-1:hover {
+  background-color: #67809f;
+}
+.serv-container #serv-block-1:hover #block-1-but {
+  background-color: #fff;
+  color: #67809f;
+}
+.serv-container #serv-block-1:hover #serv-icon-1 {
+  color: #fff;
 }
 .serv-container .serv-but {
   height: auto;

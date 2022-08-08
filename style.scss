@@ -195,7 +195,7 @@ p {
     display: none;
     position: absolute;
     width: 167px;
-    z-index: 1;
+    z-index: 6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -358,53 +358,88 @@ p {
         text-decoration: none;
     }
 
+    #serv-icon-1, #serv-icon-2, #serv-icon-3, #serv-icon-4, #serv-icon-5, #serv-icon-6, #serv-icon-7 {
+        color:black;
+        font-size: 1.5em;
+    }
+
+    #serv-icon-1 {
+        background-color: #67809f;
+        text-align: center;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+    }
+
     #serv-block-1 {
         display: block;
-        border: 1px solid black;
         width: 370px;
         height: 314.73px;
     }
 
     #serv-block-2 {
         display: block;
-        border: 1px solid black;
         width: 370px;
         height: 314.73px;
     }
 
     #serv-block-3 {
         display: block;
-        border: 1px solid black;
         width: 370px;
         height: 314.73px;
     }
 
     #serv-block-4 {
         display: block;
-        border: 1px solid black;
         width: 270px;
         height: 313.88px;
     }
 
     #serv-block-5 {
         display: block;
-        border: 1px solid black;
         width: 270px;
         height: 313.88px;
     }
 
     #serv-block-6 {
         display: block;
-        border: 1px solid black;
         width: 270px;
         height: 313.88px;
     }
 
     #serv-block-7 {
         display: block;
-        border: 1px solid black;
         width: 270px;
         height: 313.88px;
+    }
+
+    .serv-block {
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
+    }
+
+    .serv-block:hover {
+        p {
+            color: $white;
+        }
+        h2 {
+            color:$white;
+        }
+        top: -10px;
+        transition: .5s ease;
+        border-color: transparent;
+    }   
+
+    #serv-block-1:hover {
+        background-color: #67809f;
+        #block-1-but {
+            background-color: $white;
+            color: #67809f; 
+        }
+        #serv-icon-1 {
+            color:$white;
+        }
     }
 
     .serv-but {
