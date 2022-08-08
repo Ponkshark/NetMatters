@@ -25,7 +25,8 @@ $white: #fff;
     margin-left: 93px;
 }
 
-#support-button {
+#support-btn {
+    cursor: pointer;
     display:inline-block;
     color: $white;
     font-size: 18px;
@@ -40,7 +41,8 @@ $white: #fff;
     font-weight: 400;
 }
 
-#contact-button {
+#contact-btn {
+    cursor: pointer;
     display:inline-block;
     color: $white;
     font-size: 18px;
@@ -68,7 +70,8 @@ $white: #fff;
     width:240px;
 }
 
-#search-button {
+#search-btn {
+    cursor: pointer;
     display:inline-block;
     font-size: 18px;
     height:60px;
@@ -81,7 +84,22 @@ $white: #fff;
     font-weight: 400;
 }
 
-#menu-button {
+#telephone-btn {
+    cursor: pointer;
+    display:inline-block;
+    font-size: 23px;
+    height:56px;
+    width: 63px;
+    padding: 5 15px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#menu-btn {
+    cursor: pointer;
     display:inline-block;
     font-size: 23px;
     height:56px;
@@ -92,6 +110,10 @@ $white: #fff;
     background-color: #333645;
     border-radius: 3px;
     font-weight: 400;
+}
+
+#support-btn:hover, #contact-btn:hover, #search-btn:hover, #telephone-btn:hover, #menu-btn:hover {
+    filter: brightness(90%)
 }
 
 
@@ -312,4 +334,5 @@ $white: #fff;
     .main-nav {
         display: none;
     }
+    #support-button, 
 }
