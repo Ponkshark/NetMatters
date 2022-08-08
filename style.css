@@ -14,7 +14,6 @@
 
 /*! Header */
 #header-img {
-  display:inline-block;
   height: 64.425px;
   width: 370px;
   margin-top: 20px;
@@ -56,9 +55,10 @@
 
 #query {
   display: inline-block;
-  height: 58px;
+  height: 56px;
   width: 240px;
   padding: 5 15px;
+  margin-left: 20px;
   border: 1px solid #ccc;
 }
 
@@ -320,42 +320,32 @@
 }
 
 /*! Media Queries */
-
 @media only screen and (max-width: 1260px) {
   #query, #telephone-btn {
     display: none;
   }
 }
-
 @media only screen and (min-width: 1260px) {
   #telephone-btn {
     display: none;
   }
 }
-
 @media only screen and (max-width: 992px) {
   .main-nav {
     display: none;
   }
-
   #support-btn, #contact-btn, #telephone-btn {
-    display:none;
+    display: none;
   }
-  
   #query {
     display: inline-block;
   }
-
 }
-
 @media only screen and (max-width: 767px) {
   #search-btn, #query {
-    display:none;
+    display: none;
   }
   #telephone-btn {
-    display:inline-block
+    display: inline-block;
   }
-}
-
-
-/*# sourceMappingURL=Style.css.map */
+}/*# sourceMappingURL=Style.css.map */

@@ -50,6 +50,7 @@ $white: #fff;
     width:149.413px;
     padding: 5 15px;
     margin-left: 20px;
+    margin-right: 20px;
     border: 1px solid transparent;
     background-color: #999aa2;
     text-transform: uppercase;
@@ -59,7 +60,7 @@ $white: #fff;
 
 #query {
     display:inline-block;
-    height:58px;
+    height:56px;
     width:240px;
     padding: 5 15px;
     margin-left: 20px;
@@ -74,10 +75,11 @@ $white: #fff;
     cursor: pointer;
     display:inline-block;
     font-size: 18px;
-    height:60px;
+    height:56px;
     width: 63px;
     padding: 7 20px;
     margin-left: -5px;
+    margin-right: 20px;
     border: 0px solid transparent;
     background-color: #999aa2;
     border-radius: 3px;
@@ -105,7 +107,6 @@ $white: #fff;
     height:56px;
     width: 63px;
     padding: 5 15px;
-    margin-left: 20px;
     border: 0px solid transparent;
     background-color: #333645;
     border-radius: 3px;
@@ -330,9 +331,38 @@ $white: #fff;
 
 /*! Media Queries */
 
-@media only screen and (max-width: 992px) {
-    .main-nav {
-        display: none;
+@media only screen and (max-width: 1260px) {
+    #query, #telephone-btn {
+      display: none;
     }
-    #support-button, 
-}
+  }
+  
+  @media only screen and (min-width: 1260px) {
+    #telephone-btn {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .main-nav {
+      display: none;
+    }
+  
+    #support-btn, #contact-btn, #telephone-btn {
+      display:none;
+    }
+    
+    #query {
+      display: inline-block;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #search-btn, #query {
+      display:none;
+    }
+    #telephone-btn {
+      display:inline-block
+    }
+  }
