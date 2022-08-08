@@ -129,7 +129,6 @@ p {
 .main-nav {
   padding-left: 56.6px;
   padding-right: 56.6px;
-  font-size: 1.125rem;
   display: flex;
   justify-content: center;
   height: 99.01px;
@@ -141,6 +140,7 @@ p {
 }
 
 .main-nav a {
+  font-size: 1.125rem;
   color: #fff;
   font-family: Poppins, sans-serif;
   padding: 27px 30px 18px;
@@ -148,6 +148,7 @@ p {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.4px;
+  line-height: 1;
 }
 
 #nav-1, #nav-2, #nav-3, #nav-4, #nav-5, #nav-6, #nav-7 {
@@ -284,7 +285,7 @@ p {
 .small {
   margin-top: 10px;
   margin-bottom: -20px;
-  font-size: 0.6rem;
+  font-size: 10px;
 }
 
 /*! Under Nav */
@@ -296,25 +297,26 @@ p {
 .info-text {
   z-index: 4;
   position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  top: 51%;
+  right: 20%;
+  transform: translate(10%, -50%);
+}
+.info-text h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0 0 1.25rem;
+}
+.info-text p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 #main-img {
+  min-height: 550px;
   max-width: 100%;
   height: auto;
-}
-
-.img-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(270deg, transparent 25%, #000000);
-  z-index: 3;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*! Font Awesome */
@@ -382,6 +384,32 @@ p {
   }
   #query {
     display: inline-block;
+  }
+  .info-container {
+    text-align: center;
+  }
+  .img-container {
+    filter: brightness(50%);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .img-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(270deg, transparent 25%, #000000);
+    z-index: 3;
+  }
+  .info-text h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .info-text p {
+    font-size: 1.625rem;
+    line-height: 2.5rem;
   }
 }
 @media only screen and (max-width: 767px) {
