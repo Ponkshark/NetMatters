@@ -19,6 +19,12 @@ h1 {
   font-weight: 600;
 }
 
+h2 {
+  color: #333645;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
 p {
   color: #fff;
   font-size: 1.625rem;
@@ -317,6 +323,98 @@ p {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.serv-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.serv-container h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.serv-container p {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #333645;
+}
+.serv-container a {
+  text-decoration: none;
+}
+.serv-container #serv-block-1 {
+  display: block;
+  border: 1px solid black;
+  width: 370px;
+  height: 314.73px;
+}
+.serv-container #serv-block-2 {
+  display: block;
+  border: 1px solid black;
+  width: 370px;
+  height: 314.73px;
+}
+.serv-container #serv-block-3 {
+  display: block;
+  border: 1px solid black;
+  width: 370px;
+  height: 314.73px;
+}
+.serv-container #serv-block-4 {
+  display: block;
+  border: 1px solid black;
+  width: 270px;
+  height: 313.88px;
+}
+.serv-container #serv-block-5 {
+  display: block;
+  border: 1px solid black;
+  width: 270px;
+  height: 313.88px;
+}
+.serv-container #serv-block-6 {
+  display: block;
+  border: 1px solid black;
+  width: 270px;
+  height: 313.88px;
+}
+.serv-container #serv-block-7 {
+  display: block;
+  border: 1px solid black;
+  width: 270px;
+  height: 313.88px;
+}
+.serv-container .serv-but {
+  height: auto;
+  line-height: 35px;
+  font-size: 1.063rem;
+  padding: 5 15px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.serv-container #block-1-but {
+  background-color: #67809f;
+}
+.serv-container #block-2-but {
+  background-color: #4183d7;
+}
+.serv-container #block-3-but {
+  background-color: #2ecc71;
+}
+.serv-container #block-4-but {
+  background-color: #d64541;
+}
+.serv-container #block-5-but {
+  background-color: #926fa7;
+}
+.serv-container #block-6-but {
+  background-color: #f62459;
+}
+.serv-container #block-7-but {
+  background-color: #ce4125;
 }
 
 /*! Font Awesome */

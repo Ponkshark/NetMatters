@@ -1,6 +1,6 @@
 // Variables
 
-$nav-color: #333645;
+$off-black: #333645;
 $white: #fff;
 
 * { 
@@ -21,6 +21,12 @@ $white: #fff;
 h1 {
     color: $white;
     font-size: 4rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: $off-black;
+    font-size: 2.7rem;
     font-weight: 600;
 }
 
@@ -122,7 +128,7 @@ p {
     width: 63px;
     padding: 5 15px;
     border: 0px solid transparent;
-    background-color: #333645;
+    background-color: $off-black;
     border-radius: 3px;
     font-weight: 400;
 }
@@ -142,7 +148,7 @@ p {
     justify-content: center;
     height: 99.01px;
     width: auto;
-    background-color: $nav-color;
+    background-color: $off-black;
     text-transform: uppercase;
     align-items: flex-end;
     letter-spacing: 0.4px;
@@ -328,6 +334,119 @@ p {
     height: auto;
     object-fit: cover;
 }
+
+.serv-container {
+
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+        color:$off-black;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #serv-block-1 {
+        display: block;
+        border: 1px solid black;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-2 {
+        display: block;
+        border: 1px solid black;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-3 {
+        display: block;
+        border: 1px solid black;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-4 {
+        display: block;
+        border: 1px solid black;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-5 {
+        display: block;
+        border: 1px solid black;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-6 {
+        display: block;
+        border: 1px solid black;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-7 {
+        display: block;
+        border: 1px solid black;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    .serv-but {
+        height:auto;
+        line-height: 35px;
+        font-size: 1.063rem;
+        padding: 5 15px;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 3px;
+    }
+
+    #block-1-but {
+        background-color: #67809f;
+    }
+
+    #block-2-but {
+        background-color: #4183d7;
+    }
+
+    #block-3-but {
+        background-color: #2ecc71;
+    }
+
+    #block-4-but {
+        background-color: #d64541;
+    }
+
+    #block-5-but {
+        background-color: #926fa7;
+    }
+
+    #block-6-but {
+        background-color: #f62459;
+    }
+
+    #block-7-but {
+        background-color: #ce4125;
+    }
+
+}
+
 
 /*! Font Awesome */
 
