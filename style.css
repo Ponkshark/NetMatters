@@ -605,6 +605,47 @@ p {
   #query, #telephone-btn {
     display: none;
   }
+  .serv-container #serv-block-1 {
+    display: block;
+    width: 291.325px;
+    height: 334.725px;
+  }
+  .serv-container #serv-block-2 {
+    display: block;
+    width: 291.325px;
+    height: 334.725px;
+  }
+  .serv-container #serv-block-3 {
+    display: block;
+    width: 291.325px;
+    height: 334.725px;
+  }
+  .serv-container #serv-block-4 {
+    display: block;
+    width: 453px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-5 {
+    display: block;
+    width: 453px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-6 {
+    display: block;
+    width: 453px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-7 {
+    display: block;
+    width: 453px;
+    height: 289.875px;
+  }
+  .serv-container .block-1-link .serv-text, .serv-container .block-2-link .serv-text, .serv-container .block-3-link .serv-text {
+    margin-bottom: -45px;
+  }
+  .serv-container .block-4-link .serv-text, .serv-container .block-5-link .serv-text, .serv-container .block-6-link .serv-text, .serv-container .block-7-link .serv-text {
+    margin-bottom: -90px;
+  }
 }
 @media only screen and (min-width: 1260px) {
   #telephone-btn {
@@ -668,8 +709,11 @@ p {
     width: 342px;
     height: 311.875px;
   }
-  .serv-container .serv-text {
+  .serv-container .block-1-link .serv-text, .serv-container .block-2-link .serv-text, .serv-container .block-3-link .serv-text, .serv-container .block-4-link .serv-text, .serv-container .block-5-link .serv-text, .serv-container .block-6-link .serv-text {
     margin-bottom: -90px;
+  }
+  .serv-container .block-7-link .serv-text {
+    margin-bottom: -70px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -698,5 +742,50 @@ p {
   }
   #telephone-btn {
     display: inline-block;
+  }
+  .serv-container .serv-block {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .serv-container #serv-block-1 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-2 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-3 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-4 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-5 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-6 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container #serv-block-7 {
+    display: block;
+    width: 661.6px;
+    height: 289.875px;
+  }
+  .serv-container .serv-text {
+    margin-bottom: -90px;
+  }
+  .serv-container .block-7-link .serv-text {
+    margin-bottom: -90px;
   }
 }/*# sourceMappingURL=Style.css.map */
