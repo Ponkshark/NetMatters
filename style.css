@@ -345,15 +345,45 @@ p {
   text-decoration: none;
 }
 .serv-container #serv-icon-1, .serv-container #serv-icon-2, .serv-container #serv-icon-3, .serv-container #serv-icon-4, .serv-container #serv-icon-5, .serv-container #serv-icon-6, .serv-container #serv-icon-7 {
-  color: black;
-  font-size: 1.5em;
-}
-.serv-container #serv-icon-1 {
-  background-color: #67809f;
-  text-align: center;
-  border-radius: 50%;
-  height: 65px;
+  color: #fff;
   width: 65px;
+  font-size: 0.6em;
+  vertical-align: 5px;
+}
+.serv-container .icon-1-span {
+  background-color: #67809f;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-2-span {
+  background-color: #4183d7;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-3-span {
+  background-color: #2ecc71;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-4-span {
+  background-color: #d64541;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-5-span {
+  background-color: #926fa7;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-6-span {
+  background-color: #f62459;
+  border-radius: 50%;
+  font-size: 2.9em;
+}
+.serv-container .icon-7-span {
+  background-color: #ce4125;
+  border-radius: 50%;
+  font-size: 2.9em;
 }
 .serv-container #serv-block-1 {
   display: block;
@@ -394,10 +424,11 @@ p {
   border: 1px solid #ccc;
   border-radius: 15px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
 }
 .serv-container .serv-block:hover {
-  top: -10px;
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
+  transform: translateY(-10px);
   border-color: transparent;
 }
 .serv-container .serv-block:hover p {
@@ -405,6 +436,9 @@ p {
 }
 .serv-container .serv-block:hover h2 {
   color: #fff;
+}
+.serv-container .serv-block:hover #serv-icon-circle {
+  background-color: #fff;
 }
 .serv-container #serv-block-1:hover {
   background-color: #67809f;
@@ -414,7 +448,67 @@ p {
   color: #67809f;
 }
 .serv-container #serv-block-1:hover #serv-icon-1 {
-  color: #fff;
+  color: #67809f;
+}
+.serv-container #serv-block-2:hover {
+  background-color: #4183d7;
+}
+.serv-container #serv-block-2:hover #block-2-but {
+  background-color: #fff;
+  color: #4183d7;
+}
+.serv-container #serv-block-2:hover #serv-icon-2 {
+  color: #4183d7;
+}
+.serv-container #serv-block-3:hover {
+  background-color: #2ecc71;
+}
+.serv-container #serv-block-3:hover #block-3-but {
+  background-color: #fff;
+  color: #2ecc71;
+}
+.serv-container #serv-block-3:hover #serv-icon-3 {
+  color: #2ecc71;
+}
+.serv-container #serv-block-4:hover {
+  background-color: #d64541;
+}
+.serv-container #serv-block-4:hover #block-4-but {
+  background-color: #fff;
+  color: #d64541;
+}
+.serv-container #serv-block-4:hover #serv-icon-4 {
+  color: #d64541;
+}
+.serv-container #serv-block-5:hover {
+  background-color: #926fa7;
+}
+.serv-container #serv-block-5:hover #block-5-but {
+  background-color: #fff;
+  color: #926fa7;
+}
+.serv-container #serv-block-5:hover #serv-icon-5 {
+  color: #926fa7;
+}
+.serv-container #serv-block-6:hover {
+  background-color: #f62459;
+}
+.serv-container #serv-block-6:hover #block-6-but {
+  background-color: #fff;
+  color: #f62459;
+}
+.serv-container #serv-block-6:hover #serv-icon-6 {
+  color: #f62459;
+}
+.serv-container #serv-block-7:hover {
+  background-color: #ce4125;
+}
+.serv-container #serv-block-7:hover #block-7-but {
+  background-color: #fff;
+  color: #ce4125;
+}
+.serv-container #serv-block-7:hover #serv-icon-7 {
+  color: #ce4125;
 }
 .serv-container .serv-but {
   height: auto;

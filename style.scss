@@ -359,16 +359,53 @@ p {
     }
 
     #serv-icon-1, #serv-icon-2, #serv-icon-3, #serv-icon-4, #serv-icon-5, #serv-icon-6, #serv-icon-7 {
-        color:black;
-        font-size: 1.5em;
+        color: $white;
+        // height: 65px;
+        width: 65px;
+        font-size: 0.6em;
+        vertical-align: 5px;
     }
 
-    #serv-icon-1 {
+    .icon-1-span {
         background-color: #67809f;
-        text-align: center;
         border-radius: 50%;
-        height: 65px;
-        width: 65px;
+        font-size: 2.9em;
+    }
+
+    .icon-2-span {
+        background-color: #4183d7;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-3-span {
+        background-color: #2ecc71;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-4-span {
+        background-color: #d64541;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-5-span {
+        background-color: #926fa7;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-6-span {
+        background-color: #f62459;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-7-span {
+        background-color: #ce4125;
+        border-radius: 50%;
+        font-size: 2.9em;
     }
 
     #serv-block-1 {
@@ -417,6 +454,7 @@ p {
         border: 1px solid #ccc;
         border-radius: 15px;
         box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
+        transition: all .5s ease;
     }
 
     .serv-block:hover {
@@ -426,8 +464,11 @@ p {
         h2 {
             color:$white;
         }
-        top: -10px;
-        transition: .5s ease;
+        #serv-icon-circle {
+            background-color:$white;
+        }
+        transition: all .5s ease;
+        transform: translateY(-10px);
         border-color: transparent;
     }   
 
@@ -438,7 +479,73 @@ p {
             color: #67809f; 
         }
         #serv-icon-1 {
-            color:$white;
+            color:#67809f;
+        }
+    }
+
+    #serv-block-2:hover {
+        background-color: #4183d7;
+        #block-2-but {
+            background-color: $white;
+            color: #4183d7; 
+        }
+        #serv-icon-2 {
+            color:#4183d7;
+        }
+    }
+
+    #serv-block-3:hover {
+        background-color: #2ecc71;
+        #block-3-but {
+            background-color: $white;
+            color: #2ecc71; 
+        }
+        #serv-icon-3 {
+            color:#2ecc71;
+        }
+    }
+
+    #serv-block-4:hover {
+        background-color: #d64541;
+        #block-4-but {
+            background-color: $white;
+            color: #d64541; 
+        }
+        #serv-icon-4 {
+            color:#d64541;
+        }
+    }
+
+    #serv-block-5:hover {
+        background-color: #926fa7;
+        #block-5-but {
+            background-color: $white;
+            color: #926fa7; 
+        }
+        #serv-icon-5 {
+            color:#926fa7;
+        }
+    }
+
+    #serv-block-6:hover {
+        background-color: #f62459;
+        #block-6-but {
+            background-color: $white;
+            color: #f62459; 
+        }
+        #serv-icon-6 {
+            color:#f62459;
+        }
+    }
+
+    #serv-block-7:hover {
+        background-color: #ce4125;
+        #block-7-but {
+            background-color: $white;
+            color: #ce4125; 
+        }
+        #serv-icon-7 {
+            color:#ce4125;
         }
     }
 
