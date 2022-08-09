@@ -624,6 +624,14 @@ p {
 .welcome-container {
     background-color: $off-black;
     height: 605.6px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    #welc-box {
+        width: 580px;
+    }
 
     h2 {
         color: $white;
@@ -637,17 +645,75 @@ p {
         font-weight: 300;
     }
 
+    .fa-star {
+        font-size: 3rem;
+    }
+
     .welc-box-2 {
         p {
-            font-size: 1.3rem;
+            font-size: 20.8px;
             font-weight: 600;
         }
     }
 
-    .welc-quote {
+    #welc-quote {
         font-weight: 600;
         color: #a3a8ac;
-        font-size: 1.1rem;
+        font-size: 17.6px;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .welc-read-but {
+        width: 202.75px;
+        height: 55px;
+        font-size: 20px;
+        background-color: #272936;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 6px;
+    }
+
+    .welc-read-but:hover {
+        background-color: #121318;
+    }
+
+    .welc-goog-but {
+        width: 263.188px;
+        height: 55px;
+        margin-right: 7px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        background-color: #4387f6;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 6px;
+    }
+
+    .welc-goog-but:hover {
+        background-color: #166af4;
+    }
+
+    .welc-trust-but {
+        width: 294.05px;
+        height: 55px;
+        font-size: 20px;
+        margin-bottom: 50px;
+        background-color: #00b67b;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 6px;
+    }
+
+    .welc-trust-but:hover {
+        background-color: #009b69;
     }
     
 }
@@ -770,6 +836,12 @@ p {
             }
         }
   }
+    .welcome-container {
+        height: 745.6px;
+        #welc-box {
+            width: 465px;
+        }
+    }
 }
   
   @media only screen and (min-width: 1260px) {
@@ -782,6 +854,14 @@ p {
     #serv-block-3 {
         margin-right: 27px;
     }
+
+    .welcome-container {
+        #welc-quote {
+            padding-bottom: 70px;
+        }
+    }
+    
+
   }
   
   @media only screen and (max-width: 992px) {
@@ -860,6 +940,17 @@ p {
             .serv-text {
                 margin-bottom: -70px;
             }
+        }
+    }
+
+    .welcome-container {
+        //height: 1024.8px;
+        height: auto;
+        #welc-box {
+            max-width: 750px;
+            width:auto;
+            padding-left: 15px;
+            padding-right: 15px;
         }
     }
 
