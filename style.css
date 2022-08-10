@@ -674,6 +674,30 @@ p {
   margin-left: 174.6px;
 }
 
+.news-container {
+  margin-left: 174.6px;
+  margin-right: 174.6px;
+  display: flex;
+  justify-content: space-between;
+}
+.news-container h3 {
+  color: black;
+}
+.news-container p {
+  color: black;
+}
+.news-container #news-box {
+  height: 583.86px;
+  width: 370px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+.news-container #news-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /*! Font Awesome */
 .fa-grip {
   color: #67809f;
