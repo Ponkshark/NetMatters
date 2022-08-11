@@ -38,10 +38,15 @@ p {
 
 /*! Header */
 
+.header-block-1 {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
 #header-img {
     display: block;
-    height: 64.425px;
-    width:370px;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -49,6 +54,10 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+}
+
+.header-block-2 {
+    margin-left: auto;
 }
 
 
@@ -98,7 +107,6 @@ p {
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    z-index: 9;
 }
 
 #query2 {
@@ -106,13 +114,13 @@ p {
     height: 47px;
     width: 100%;
     padding-left: 15px;
+    padding-right: 40px;
     outline: 1px solid hsla(0,0%,100%,.2);
     border: 2px solid rgba(0,0,0,.1);
     border-radius: 2px;
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
     background-color: rgba(0,0,0,.1);
     color: #555;
-    z-index: 9;
 }
 
 #q2-but {
@@ -121,8 +129,8 @@ p {
     margin-top: -35px;
     margin-right: 10px;
     border: 0px solid transparent;
-    z-index: 10;
     background-color: transparent;
+    z-index: 5;
     .fa-magnifying-glass {
         cursor: pointer;
         font-weight: 600;
@@ -839,7 +847,9 @@ p {
         position: relative;
         transition: all .5s ease;
 
-        img {
+        .news-big-img {
+            height: auto;
+            width: 100%;
             max-width: 100%;
             max-height: 100%;
         }
@@ -1006,8 +1016,7 @@ p {
     }
 
     #header-img {
-        height: 65.15px;
-        width:374.16px;
+        height: 90%;
     }
 
     .serv-container {
@@ -1116,8 +1125,8 @@ p {
     }
 
     #header-img {
-        height: 60.06px;
-        width:345px;
+        height: 85%;
+
     }
   
     #support-btn, #contact-btn, #telephone-btn {
@@ -1249,8 +1258,21 @@ p {
         }
      }
 }
+
+@media only screen and (min-width: 767px) {
+
+    .form2-cont {
+        display: none;
+    }
+
+}
   
- @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
+
+    #header-img {
+        height: auto;
+
+    }
 
     .main-header {
         justify-content: space-between;
@@ -1264,11 +1286,6 @@ p {
 
     #telephone-btn {
       display:inline-block
-    }
-
-    #header-img {
-        height: 70px;
-        width: 402px;
     }
 
     .serv-container {
@@ -1343,9 +1360,14 @@ p {
     .news-container {
 
         flex-wrap: wrap;
+        height: auto;
 
         .news-box-3 {
             display: block;
+        }
+
+        .news-box-1, .news-box-2 {
+            margin-bottom: 100px;
         }
 
         #news-box {
