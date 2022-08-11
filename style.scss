@@ -73,8 +73,8 @@ p {
     display:inline-block;
     color: $white;
     font-size: 18px;
-    height:56px;
-    width:149.413px;
+    height: 56px;
+    width: 149.413px;
     padding: 5 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -86,12 +86,49 @@ p {
 }
 
 #query {
-    display:inline-block;
-    height:56px;
-    width:240px;
+    display: inline-block;
+    height: 56px;
+    width: 240px;
     padding: 5 15px;
     margin-left: 20px;
     border: 1px solid #ccc;
+}
+
+.form2-cont {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    z-index: 9;
+}
+
+#query2 {
+    display: inline-block;
+    height: 47px;
+    width: 100%;
+    padding-left: 15px;
+    outline: 1px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    background-color: rgba(0,0,0,.1);
+    color: #555;
+    z-index: 9;
+}
+
+#q2-but {
+    cursor: pointer;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    border: 0px solid transparent;
+    z-index: 10;
+    background-color: transparent;
+    .fa-magnifying-glass {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: black;
+    }
 }
 
 #form {
