@@ -953,6 +953,35 @@ p {
     }
 }
 
+/*! Banner */
+
+.banner-container {
+    display: flex;
+    margin-top: 100px;
+    gap: 80px;
+    justify-content: center;
+
+}
+
+.view-all {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    a, .fa-arrow-right {
+        font-weight: 600;
+        font-size: 1.625rem;
+        color: $off-black;
+        text-decoration: none;
+        
+    }
+    a:hover {
+            text-decoration: underline;
+            .fa-arrow-right {
+                text-decoration: underline;
+            }
+
+    }
+}
 
 /*! Font Awesome */
 
@@ -1097,6 +1126,20 @@ p {
             width: 455px;
         }
     }
+
+    .banner-container {
+        gap: 20px;
+
+        img {
+            height: 100%;
+            width: 90%;
+        }
+
+        #banner-item-3 {
+            padding-right: 10px;
+        }
+
+    }
 }
   
   @media only screen and (min-width: 1260px) {
@@ -1230,7 +1273,35 @@ p {
         }
     }
 
+    .banner-container {
+        gap: 40px;
 
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #banner-item-1 {
+            height: 45.1px;
+            width: 121.15px;
+        }
+
+        #banner-item-2 {
+            height: 45.1px;
+            width: 184.95px;
+        }
+
+        #banner-item-3 {
+            height: 45.1px;
+            width: 46.4px;
+        }
+
+        #banner-item-4 {
+            height: 45.1px;
+            width: 207.5px;
+        }
+
+    }
   
   }
 
@@ -1262,6 +1333,10 @@ p {
 @media only screen and (min-width: 767px) {
 
     .form2-cont {
+        display: none;
+    }
+
+    .view-all { 
         display: none;
     }
 
@@ -1373,6 +1448,10 @@ p {
         #news-box {
            width: 90%;
         }
+    }
+
+    .banner-container {
+        display: none;
     }
 
 
