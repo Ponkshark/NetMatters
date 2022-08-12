@@ -1024,19 +1024,52 @@ p {
         #yourname, #youremail {
             height: 47px;
             width: 570px;
+            border: 1px solid #e5e5e5;
+            border-radius: 2px;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        }
+
+        #yourname:focus, #youremail:focus {
+            border-color: #5bc0de;
+            outline: 0;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(91 192 222 / 60%);
+        }
+
+        .name-email-label:after {
+            font-weight: 100;
+            content:" *";
+            color: #d24d57;
+        }
+
+        label {
+            font-weight: 600;
+            color: $off-black;
         }
 
     }
 
     .checkbox-item {
+        display: flex;
         margin-top: -20px;
         align-content: left;
         width: 1170px;
+        label {
+            font-weight: 600;
+            line-height: 32px;
+            color: $off-black;
+        }
     }
 
     .sub-item {
         width: 1170px;
     }
+}
+
+input[type=checkbox] {
+    width: 38px;
+    height: 38px;
+    // transform: scale(2.4615);
+    margin-right: 20px;
 }
 
 .newsletter-form {
@@ -1222,6 +1255,28 @@ p {
         }
 
     }
+    .name-email-cont {
+
+        .news-title-item {
+            width: 940px;
+        }
+    
+        .name-email-item {
+            width: 455px;
+
+            #yourname, #youremail {
+                    width: 455px;
+            }
+        }
+        .checkbox-item {
+            width: 940px;
+        }
+        .sub-item {
+            width: 940px;
+        }
+
+            
+    }
 }
   
   @media only screen and (min-width: 1260px) {
@@ -1384,7 +1439,27 @@ p {
         }
 
     }
-  
+
+    .name-email-cont {
+
+        .news-title-item {
+            width: 720px;
+        }
+    
+        .name-email-item {
+            width: 720px;
+
+            #yourname, #youremail {
+                    width: 720px;
+            }
+        }
+        .checkbox-item {
+            width: 720px;
+        }
+        .sub-item {
+            width: 720px;
+        }
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -1534,6 +1609,27 @@ p {
 
     .banner-container {
         display: none;
+    }
+
+    .name-email-cont {
+
+        .news-title-item {
+            width: 100%;
+        }
+    
+        .name-email-item {
+            width: 100%;
+
+            #yourname, #youremail {
+                    width: 100%;
+            }
+        }
+        .checkbox-item {
+            width: 100%;
+        }
+        .sub-item {
+            width: 100%;
+        }
     }
 
 

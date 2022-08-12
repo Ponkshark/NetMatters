@@ -906,14 +906,43 @@ p {
 .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
   height: 47px;
   width: 570px;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.name-email-cont .name-email-item #yourname:focus, .name-email-cont .name-email-item #youremail:focus {
+  border-color: #5bc0de;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px rgba(91, 192, 222, 0.6);
+}
+.name-email-cont .name-email-item .name-email-label:after {
+  font-weight: 100;
+  content: " *";
+  color: #d24d57;
+}
+.name-email-cont .name-email-item label {
+  font-weight: 600;
+  color: #333645;
 }
 .name-email-cont .checkbox-item {
+  display: flex;
   margin-top: -20px;
   align-content: left;
   width: 1170px;
 }
+.name-email-cont .checkbox-item label {
+  font-weight: 600;
+  line-height: 32px;
+  color: #333645;
+}
 .name-email-cont .sub-item {
   width: 1170px;
+}
+
+input[type=checkbox] {
+  width: 38px;
+  height: 38px;
+  margin-right: 20px;
 }
 
 .newsletter-form h2 {
@@ -1065,6 +1094,21 @@ p {
   .banner-container #banner-item-3 {
     padding-right: 10px;
   }
+  .name-email-cont .news-title-item {
+    width: 940px;
+  }
+  .name-email-cont .name-email-item {
+    width: 455px;
+  }
+  .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
+    width: 455px;
+  }
+  .name-email-cont .checkbox-item {
+    width: 940px;
+  }
+  .name-email-cont .sub-item {
+    width: 940px;
+  }
 }
 @media only screen and (min-width: 1260px) {
   #telephone-btn {
@@ -1179,6 +1223,21 @@ p {
     height: 45.1px;
     width: 207.5px;
   }
+  .name-email-cont .news-title-item {
+    width: 720px;
+  }
+  .name-email-cont .name-email-item {
+    width: 720px;
+  }
+  .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
+    width: 720px;
+  }
+  .name-email-cont .checkbox-item {
+    width: 720px;
+  }
+  .name-email-cont .sub-item {
+    width: 720px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .img-container::before {
@@ -1289,5 +1348,20 @@ p {
   }
   .banner-container {
     display: none;
+  }
+  .name-email-cont .news-title-item {
+    width: 100%;
+  }
+  .name-email-cont .name-email-item {
+    width: 100%;
+  }
+  .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
+    width: 100%;
+  }
+  .name-email-cont .checkbox-item {
+    width: 100%;
+  }
+  .name-email-cont .sub-item {
+    width: 100%;
   }
 }/*# sourceMappingURL=Style.css.map */
