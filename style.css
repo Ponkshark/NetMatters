@@ -967,6 +967,94 @@ input[type=checkbox] {
   border-color: #333645;
 }
 
+/*! Footer */
+.footer-cont {
+  height: 620.76px;
+  background-color: #333645;
+}
+.footer-cont .footer-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 47px;
+}
+.footer-cont .footer-row .footer-item {
+  height: 255px;
+  width: 219.6px;
+}
+.footer-cont .footer-row .footer-item h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 26px;
+  font-weight: 400;
+}
+.footer-cont .footer-row .footer-item ul {
+  list-style: none;
+}
+.footer-cont .footer-row .footer-item li {
+  color: #fff;
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+}
+.footer-cont .footer-row .footer-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-cont .footer-row .footer-item a:hover {
+  text-decoration: underline;
+}
+.footer-cont .footer-row #footer-item-1 {
+  margin-left: 170px;
+  margin-right: 85px;
+}
+.footer-cont .footer-row #footer-item-2 {
+  margin-left: 85px;
+  margin-right: 170px;
+}
+.footer-cont .footer-row #footer-item-3 {
+  margin-left: 66.25px;
+  margin-right: 33.125px;
+}
+.footer-cont .footer-row #footer-item-4 {
+  margin-left: 33.125px;
+  margin-right: 33.125px;
+}
+.footer-cont .footer-row #footer-item-5 {
+  margin-left: 33.125px;
+  margin-right: 66.25px;
+}
+.footer-cont .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-cont .footer-bottom .footer-bot-right {
+  display: flex;
+  justify-content: center;
+}
+.footer-cont .footer-bottom button {
+  background-color: transparent;
+  border: none;
+  padding: 7px 10px 10px;
+  height: 37.56px;
+  width: 32.75px;
+}
+.footer-cont .footer-bottom button:hover {
+  border-radius: 50%;
+}
+.footer-cont .footer-bottom #footer-but-1:hover {
+  background-color: #3b5998;
+}
+.footer-cont .footer-bottom #footer-but-2:hover {
+  background-color: #00aced;
+}
+.footer-cont .footer-bottom #footer-but-3:hover {
+  background-color: #d93175;
+}
+.footer-cont .footer-bottom #footer-but-4:hover {
+  background-color: #0077b5;
+}
+
 /*! Font Awesome */
 .fa-grip {
   color: #67809f;
@@ -1017,6 +1105,22 @@ input[type=checkbox] {
 }
 
 .fa-arrow-right {
+  color: #fff;
+}
+
+.fa-facebook-f {
+  color: #fff;
+}
+
+.fa-twitter {
+  color: #fff;
+}
+
+.fa-instagram {
+  color: #fff;
+}
+
+.fa-linkedin-in {
   color: #fff;
 }
 

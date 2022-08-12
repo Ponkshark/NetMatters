@@ -1098,6 +1098,112 @@ input[type=checkbox] {
     }
 }
 
+/*! Footer */
+
+.footer-cont {
+    height: 620.76px;
+    background-color: $off-black;
+
+    .footer-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 47px;
+    
+        .footer-item {
+            height: 255px;
+            width: 219.6px;
+            h4 {
+                color: $white;
+                text-transform: uppercase;
+                font-size: 1rem;
+                margin-bottom: 26px;
+                font-weight: 400;
+            }
+            ul {
+                list-style: none;
+            }
+            li {
+                color: $white;
+                font-size: .8125rem;
+                line-height: 1.375rem;
+            }
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        #footer-item-1 {
+            margin-left: 170px;
+            margin-right: 85px;
+        }
+
+        #footer-item-2 {
+            margin-left: 85px;
+            margin-right: 170px;
+        }
+
+        #footer-item-3 {
+            margin-left: 66.25px;
+            margin-right: 33.125px;
+        }
+
+        #footer-item-4 {
+            margin-left: 33.125px;
+            margin-right: 33.125px;
+        }
+
+        #footer-item-5 {
+            margin-left: 33.125px;
+            margin-right: 66.25px;
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-bot-right {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            padding: 7px 10px 10px;
+            height: 37.56px;
+            width: 32.75px;
+        }
+
+        button:hover {
+            border-radius: 50%;
+        }
+
+        #footer-but-1:hover {
+            background-color: #3b5998;
+        }
+
+        #footer-but-2:hover {
+            background-color: #00aced;
+        }
+
+        #footer-but-3:hover {
+            background-color: #d93175;
+        }
+
+        #footer-but-4:hover {
+            background-color: #0077b5;
+        }
+    }
+
+    
+}
+
 /*! Font Awesome */
 
 .fa-grip {
@@ -1149,6 +1255,22 @@ input[type=checkbox] {
 }
 
 .fa-arrow-right {
+    color: $white;
+}
+
+.fa-facebook-f {
+    color: $white;
+}
+
+.fa-twitter {
+    color: $white;
+}
+
+.fa-instagram {
+    color: $white;
+}
+
+.fa-linkedin-in {
     color: $white;
 }
 
