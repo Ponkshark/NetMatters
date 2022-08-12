@@ -1101,7 +1101,8 @@ input[type=checkbox] {
 /*! Footer */
 
 .footer-cont {
-    height: 620.76px;
+    // height: 620.76px;
+    height: 393.16px;
     background-color: $off-black;
 
     .footer-row {
@@ -1137,30 +1138,32 @@ input[type=checkbox] {
             }
         }
 
-        #footer-item-1 {
-            margin-left: 170px;
-            margin-right: 85px;
-        }
+        // #footer-item-1 {
+        //     margin-left: 170px;
+        //     margin-right: 85px;
+        // }
 
         #footer-item-2 {
-            margin-left: 85px;
-            margin-right: 170px;
+            // margin-left: 85px;
+            // margin-right: 170px;
+            margin-right: 45px;
+            
         }
 
-        #footer-item-3 {
-            margin-left: 66.25px;
-            margin-right: 33.125px;
-        }
+        // #footer-item-3 {
+        //     margin-left: 66.25px;
+        //     margin-right: 33.125px;
+        // }
 
-        #footer-item-4 {
-            margin-left: 33.125px;
-            margin-right: 33.125px;
-        }
+        // #footer-item-4 {
+        //     margin-left: 33.125px;
+        //     margin-right: 33.125px;
+        // }
 
-        #footer-item-5 {
-            margin-left: 33.125px;
-            margin-right: 66.25px;
-        }
+        // #footer-item-5 {
+        //     margin-left: 33.125px;
+        //     margin-right: 66.25px;
+        // }
     }
 
     .footer-bottom {
@@ -1399,6 +1402,40 @@ input[type=checkbox] {
 
             
     }
+
+    .footer-cont {
+        height: 620.76px;
+
+        .footer-row {
+
+            #footer-item-1 {
+                margin-left: 170px;
+                margin-right: 85px;
+            }
+        
+            #footer-item-2 {
+                margin-left: 85px;
+                margin-right: 170px;         
+            }
+        
+            #footer-item-3 {
+                margin-left: 66.25px;
+                margin-right: 33.125px;
+            }
+        
+            #footer-item-4 {
+                margin-left: 33.125px;
+                margin-right: 33.125px;
+            }
+        
+            #footer-item-5 {
+                margin-left: 33.125px;
+                margin-right: 66.25px;
+            }
+        }
+    }
+
+    
 }
   
   @media only screen and (min-width: 1260px) {
@@ -1582,6 +1619,38 @@ input[type=checkbox] {
             width: 720px;
         }
     }
+
+    .footer-cont {
+        height: 620.76px;
+
+        .footer-row {
+
+            #footer-item-1 {
+                margin-left: 90px;
+                margin-right: 45px;
+            }
+        
+            #footer-item-2 {
+                margin-left: 45px;
+                margin-right: 120px;         
+            }
+        
+            #footer-item-3 {
+                margin-left: 11.25px;
+                margin-right: 5.625px;
+            }
+        
+            #footer-item-4 {
+                margin-left: 5.625px;
+                margin-right: 5.625px;
+            }
+        
+            #footer-item-5 {
+                margin-left: 5.625px;
+                margin-right: 11.25px;
+            }
+        }
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -1754,6 +1823,42 @@ input[type=checkbox] {
         }
     }
 
+    .footer-cont {
+        height: 630.33px;
 
-  }
+        .footer-row {
+
+            #footer-item-1 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        
+            #footer-item-2 {
+                margin-left: 0px;
+                margin-right: 0px;         
+            }
+        
+            #footer-item-3 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        
+            #footer-item-4 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        
+            #footer-item-5 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .footer-cont {
+        height: auto;
+    }
+}
   

@@ -969,7 +969,7 @@ input[type=checkbox] {
 
 /*! Footer */
 .footer-cont {
-  height: 620.76px;
+  height: 393.16px;
   background-color: #333645;
 }
 .footer-cont .footer-row {
@@ -1004,25 +1004,8 @@ input[type=checkbox] {
 .footer-cont .footer-row .footer-item a:hover {
   text-decoration: underline;
 }
-.footer-cont .footer-row #footer-item-1 {
-  margin-left: 170px;
-  margin-right: 85px;
-}
 .footer-cont .footer-row #footer-item-2 {
-  margin-left: 85px;
-  margin-right: 170px;
-}
-.footer-cont .footer-row #footer-item-3 {
-  margin-left: 66.25px;
-  margin-right: 33.125px;
-}
-.footer-cont .footer-row #footer-item-4 {
-  margin-left: 33.125px;
-  margin-right: 33.125px;
-}
-.footer-cont .footer-row #footer-item-5 {
-  margin-left: 33.125px;
-  margin-right: 66.25px;
+  margin-right: 45px;
 }
 .footer-cont .footer-bottom {
   display: flex;
@@ -1213,6 +1196,29 @@ input[type=checkbox] {
   .name-email-cont .sub-item {
     width: 940px;
   }
+  .footer-cont {
+    height: 620.76px;
+  }
+  .footer-cont .footer-row #footer-item-1 {
+    margin-left: 170px;
+    margin-right: 85px;
+  }
+  .footer-cont .footer-row #footer-item-2 {
+    margin-left: 85px;
+    margin-right: 170px;
+  }
+  .footer-cont .footer-row #footer-item-3 {
+    margin-left: 66.25px;
+    margin-right: 33.125px;
+  }
+  .footer-cont .footer-row #footer-item-4 {
+    margin-left: 33.125px;
+    margin-right: 33.125px;
+  }
+  .footer-cont .footer-row #footer-item-5 {
+    margin-left: 33.125px;
+    margin-right: 66.25px;
+  }
 }
 @media only screen and (min-width: 1260px) {
   #telephone-btn {
@@ -1342,6 +1348,29 @@ input[type=checkbox] {
   .name-email-cont .sub-item {
     width: 720px;
   }
+  .footer-cont {
+    height: 620.76px;
+  }
+  .footer-cont .footer-row #footer-item-1 {
+    margin-left: 90px;
+    margin-right: 45px;
+  }
+  .footer-cont .footer-row #footer-item-2 {
+    margin-left: 45px;
+    margin-right: 120px;
+  }
+  .footer-cont .footer-row #footer-item-3 {
+    margin-left: 11.25px;
+    margin-right: 5.625px;
+  }
+  .footer-cont .footer-row #footer-item-4 {
+    margin-left: 5.625px;
+    margin-right: 5.625px;
+  }
+  .footer-cont .footer-row #footer-item-5 {
+    margin-left: 5.625px;
+    margin-right: 11.25px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .img-container::before {
@@ -1467,5 +1496,33 @@ input[type=checkbox] {
   }
   .name-email-cont .sub-item {
     width: 100%;
+  }
+  .footer-cont {
+    height: 630.33px;
+  }
+  .footer-cont .footer-row #footer-item-1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-cont .footer-row #footer-item-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-cont .footer-row #footer-item-3 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-cont .footer-row #footer-item-4 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-cont .footer-row #footer-item-5 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 676px) {
+  .footer-cont {
+    height: auto;
   }
 }/*# sourceMappingURL=Style.css.map */
