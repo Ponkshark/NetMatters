@@ -7,6 +7,7 @@
 
 #header-img {
   display: block;
+  height: 92%;
   max-height: 100%;
   max-width: 100%;
 }
@@ -19,6 +20,8 @@
 
 .header-block-2 {
   margin-left: 0;
+  justify-content: center;
+  min-width: 150.68px;
 }
 
 #support-btn {
@@ -60,6 +63,7 @@
   width: 240px;
   padding: 5 15px;
   margin-left: 20px;
+  transform: translateY(-2px);
   border: 1px solid #ccc;
 }
 
@@ -67,6 +71,16 @@
   margin-top: 10px;
   margin-left: 15px;
   margin-right: 15px;
+  position: relative;
+}
+.form2-cont .fa-magnifying-glass {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: black;
 }
 
 #query2 {
@@ -86,17 +100,8 @@
 .q2-but {
   cursor: pointer;
   float: right;
-  margin-top: -35px;
-  margin-right: 10px;
   border: 0px solid transparent;
   background-color: transparent;
-  z-index: 5;
-}
-.q2-but .fa-magnifying-glass {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 1.3rem;
-  color: black;
 }
 
 #form {
@@ -110,6 +115,7 @@
   height: 56px;
   width: 63px;
   padding: 7 20px;
+  transform: translateY(-1px);
   margin-left: -5px;
   margin-right: 20px;
   border: 0px solid transparent;
@@ -149,10 +155,16 @@
   filter: brightness(90%);
 }
 
+#query:focus, #query2:focus {
+  border-color: #5bc0de;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08), 0 0 8px rgba(91, 192, 222, 0.6);
+}
+
 /*! Navigation Bar */
 .main-nav {
-  padding-left: 56.6px;
-  padding-right: 56.6px;
+  padding-left: 23px;
+  padding-right: 23px;
   display: flex;
   justify-content: center;
   height: 99.01px;
@@ -189,7 +201,6 @@
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   display: flex;
-  font-size: 1rem;
   text-transform: uppercase;
   border: none;
   outline: none;
@@ -207,6 +218,9 @@
   z-index: 6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+.dropdown-content a {
+  font-size: 1rem;
 }
 
 #dc-1 {
@@ -257,52 +271,52 @@
   display: block;
 }
 
-#nav-1:hover {
+#dropdown-1:hover #nav-1 {
   background-color: #67809f;
 }
-#nav-1:hover .fa-grip {
+#dropdown-1:hover #nav-1 .fa-grip {
   color: #ffffff;
 }
 
-#nav-2:hover {
+#dropdown-2:hover #nav-2 {
   background-color: #4183d7;
 }
-#nav-2:hover .fa-display {
+#dropdown-2:hover #nav-2 .fa-display {
   color: #ffffff;
 }
 
-#nav-3:hover {
+#dropdown-3:hover #nav-3 {
   background-color: #2ecc71;
 }
-#nav-3:hover .fa-chart-simple {
+#dropdown-3:hover #nav-3 .fa-chart-simple {
   color: #ffffff;
 }
 
-#nav-4:hover {
+#dropdown-4:hover #nav-4 {
   background-color: #d64541;
 }
-#nav-4:hover .fa-phone {
+#dropdown-4:hover #nav-4 .fa-phone {
   color: #ffffff;
 }
 
-#nav-5:hover {
+#dropdown-5:hover #nav-5 {
   background-color: #926fa7;
 }
-#nav-5:hover .fa-code {
+#dropdown-5:hover #nav-5 .fa-code {
   color: #ffffff;
 }
 
-#nav-6:hover {
+#dropdown-6:hover #nav-6 {
   background-color: #f62459;
 }
-#nav-6:hover .fa-shield-halved {
+#dropdown-6:hover #nav-6 .fa-shield-halved {
   color: #ffffff;
 }
 
-#nav-7:hover {
+#dropdown-7:hover #nav-7 {
   background-color: #ce4125;
 }
-#nav-7:hover .fa-graduation-cap {
+#dropdown-7:hover #nav-7 .fa-graduation-cap {
   color: #ffffff;
 }
 
@@ -680,6 +694,7 @@
   font-size: 1.625rem;
 }
 .news-header-container a {
+  font-size: 1.625rem;
   color: #333645;
   text-decoration: none;
 }
@@ -967,6 +982,7 @@ input[type=checkbox] {
   line-height: 1.375rem;
 }
 .footer-cont .footer-row .footer-item a {
+  font-size: 0.8125rem;
   color: #fff;
   text-decoration: none;
 }
@@ -994,6 +1010,7 @@ input[type=checkbox] {
 .footer-cont .footer-bottom a {
   color: #fff;
   text-decoration: none;
+  font-size: 0.8125rem;
 }
 .footer-cont .footer-bottom a:hover {
   text-decoration: underline;
@@ -1102,8 +1119,17 @@ input[type=checkbox] {
   #query, #telephone-btn {
     display: none;
   }
-  #header-img {
-    height: 90%;
+  #nav-1, #nav-2, #nav-3, #nav-4, #nav-5, #nav-6, #nav-7 {
+    width: 134.29px;
+  }
+  a {
+    font-size: 1rem;
+  }
+  .dropdown-content {
+    width: 134.29px;
+  }
+  .dropdown-content a {
+    font-size: 0.8125rem;
   }
   .serv-container #serv-block-1 {
     display: block;
@@ -1222,6 +1248,10 @@ input[type=checkbox] {
   }
   .welcome-container #welc-quote {
     padding-bottom: 70px;
+  }
+  #search-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -1389,6 +1419,9 @@ input[type=checkbox] {
   .view-all {
     display: none;
   }
+  .copyright-small {
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   #header-img {
@@ -1510,6 +1543,9 @@ input[type=checkbox] {
   .footer-cont .footer-row #footer-item-5 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .copyright-big {
+    display: none;
   }
 }
 @media only screen and (max-width: 676px) {

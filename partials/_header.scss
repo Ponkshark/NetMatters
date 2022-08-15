@@ -8,6 +8,7 @@
 
 #header-img {
     display: block;
+    height: 92%;
     max-height: 100%;
     max-width: 100%;
 }
@@ -20,6 +21,8 @@
 
 .header-block-2 {
     margin-left: 0;
+    justify-content: center;
+    min-width: 150.68px;
 }
 
 
@@ -62,6 +65,7 @@
     width: 240px;
     padding: 5 15px;
     margin-left: 20px;
+    transform: translateY(-2px);
     border: 1px solid #ccc;
 }
 
@@ -69,6 +73,18 @@
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
+    position: relative;
+
+    .fa-magnifying-glass {
+        position: absolute;
+        right: 10px;
+        top: 13px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: black;
+    
+    }
 }
 
 #query2 {
@@ -88,18 +104,8 @@
 .q2-but {
     cursor: pointer;
     float: right;
-    margin-top: -35px;
-    margin-right: 10px;
     border: 0px solid transparent;
     background-color: transparent;
-    z-index: 5;
-    .fa-magnifying-glass {
-        cursor: pointer;
-        font-weight: 600;
-        font-size: 1.3rem;
-        color: black;
-    }
-    
 }
 
 #form {
@@ -113,6 +119,7 @@
     height: 56px;
     width: 63px;
     padding: 7 20px;
+    transform: translateY(-1px);
     margin-left: -5px;
     margin-right: 20px;
     border: 0px solid transparent;
@@ -148,6 +155,13 @@
     font-weight: 400;
 }
 
+
 #support-btn:hover, #contact-btn:hover, #search-btn:hover, #telephone-btn:hover, #menu-btn:hover {
     filter: brightness(90%)
+}
+
+#query:focus, #query2:focus {
+    border-color: #5bc0de;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(91 192 222 / 60%);
 }

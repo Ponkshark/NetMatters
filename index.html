@@ -9,29 +9,29 @@
 <header class="main-header" style="padding-top: 27px;">
 
     <div class="header-block-1">
-    <a href="#"><img src="img/f-logo.png" alt="The Netmatters Logo" id="header-img"></a>
+        <a href="#"><img src="img/f-logo.png" alt="The Netmatters Logo" id="header-img"></a>
     </div>
     <div class="header-block-2">
-    <a href="#"><button id="support-btn"><i class="fa-solid fa-computer-mouse"></i>Support</button></a>
-    <a href="#"><button id="contact-btn"><i class="fa-solid fa-paper-plane"></i>Contact</button></a>
-    <form id="form" style="display: inline;"> 
-        <input type="search" id="query" name="q" placeholder="Search...">
-    </form>
-    <a href="#"><button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button></a>
-    <a href="#"><button id="telephone-btn"><i class="fa-solid fa-phone-volume"></i></button></a>
-    <a href="#"><button id="menu-btn"><i class="fa-solid fa-bars"></i></button></a>
+        <a href="#"><button id="support-btn"><i class="fa-solid fa-computer-mouse"></i> Support</button></a>
+        <a href="#"><button id="contact-btn"><i class="fa-solid fa-paper-plane"></i> Contact</button></a>
+        <form id="form" style="display: inline;"> 
+            <input type="search" id="query" name="q" placeholder="Search...">
+        </form>
+        <a href="#"><button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+        <a href="#"><button id="telephone-btn"><i class="fa-solid fa-phone-volume fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i></button></a>
+        <a href="#"><button id="menu-btn"><i class="fa-solid fa-bars"></i></button></a>
     </div>
 </header>
 <div class="form2-cont">
 <form id="form2" style="display: inline;"> 
     <input type="text" id="query2" name="q2" placeholder="Search...">
 </form>
-<a href="#"><button type="submit" class="q2-but"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+<button type="submit" class="q2-but"><i class="fa-solid fa-magnifying-glass"></i></button>
 
 </div>
 <br>
 <div class="main-nav">
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-1">
         <button class="dropbtn">
     <a href="#" id="nav-1">
         <i class="fa-solid fa-grip"></i><div class="small">Bespoke</div><br>Software
@@ -47,7 +47,7 @@
         <a href="#">Navision</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-2">
         <button class="dropbtn">
     <a href="#" id="nav-2">
         <i class="fa-solid fa-display"></i><div class="small">IT</div><br>Support
@@ -62,7 +62,7 @@
         <a href="#">Data Backup</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-3">
         <button class="dropbtn">
     <a href="#" id="nav-3">
         <i class="fa-solid fa-chart-simple"></i><div class="small">Digital</div><br>Marketing
@@ -77,7 +77,7 @@
         <a href="#">Content</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-4">
         <button class="dropbtn">
     <a href="#" id="nav-4">
         <i class="fa-solid fa-phone"></i><div class="small">Telecoms</div><br>Services
@@ -92,7 +92,7 @@
         <a href="#">3CX Systems</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-5">
         <button class="dropbtn">
     <a href="#" id="nav-5">
         <i class="fa-solid fa-code"></i><div class="small">Web</div><br>Design
@@ -107,7 +107,7 @@
         <a href="#">Pay Monthly Websites</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-6">
         <button class="dropbtn">
     <a href="#" id="nav-6">
         <i class="fa-solid fa-shield-halved"></i><div class="small">Cyber</div><br>Security
@@ -122,7 +122,7 @@
         <a href="#">Hacker Prevention</a>
     </div>
     </div>
-    <div class="dropdown">
+    <div class="dropdown" id="dropdown-7">
         <button class="dropbtn">
     <a href="#" id="nav-7">
         <i class="fa-solid fa-graduation-cap"></i><div class="small">Developer</div><br>Course
@@ -450,7 +450,8 @@
         </div>
         <div class="footer-bottom">
             <div>
-                <span>&copy; Copyright Netmatters 2022. All rights reserved.</span> &nbsp;-&nbsp;<a href="#">Sitemap</a>
+                <div class="copyright-big">&copy; Copyright Netmatters 2022. All rights reserved. &nbsp;-&nbsp;<a href="#">Sitemap</a></div>
+                <div class="copyright-small">&copy; Copyright Netmatters 2022. &nbsp;-&nbsp;<a href="#">Sitemap</a><br> All rights reserved</div>
             </div>
             <div class="footer-but">
                 <button id="footer-but-1"><i class="fa-brands fa-facebook-f"></i></button>
