@@ -1,0 +1,276 @@
+/*! Our Services */
+
+
+.serv-container {
+
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 0.8125rem;
+        font-weight: 400;
+        color:$off-black;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .serv-title {
+        margin-top: -15px;
+        margin-bottom: 15px;
+
+    }
+
+    .serv-text {
+        height: 150px;
+        margin-bottom: -65px;
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 1.375rem;
+    }
+
+    #serv-icon-1, #serv-icon-2, #serv-icon-3, #serv-icon-4, #serv-icon-5, #serv-icon-6, #serv-icon-7 {
+        line-height: 120px;
+    }
+
+
+
+    #serv-icon-1, #serv-icon-2, #serv-icon-3, #serv-icon-4, #serv-icon-5, #serv-icon-6, #serv-icon-7 {
+        color: $white;
+        // height: 65px;
+        width: 65px;
+        font-size: 0.6em;
+        vertical-align: 5px;
+    }
+
+    .icon-1-span {
+        background-color: $style-bes;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-2-span {
+        background-color: $style-it;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-3-span {
+        background-color: $style-dig;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-4-span {
+        background-color: $style-tel;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-5-span {
+        background-color: $style-web;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-6-span {
+        background-color: $style-cyb;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    .icon-7-span {
+        background-color: $style-dev;
+        border-radius: 50%;
+        font-size: 2.9em;
+    }
+
+    #serv-block-1 {
+        display: block;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-2 {
+        display: block;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-3 {
+        display: block;
+        width: 370px;
+        height: 314.73px;
+    }
+
+    #serv-block-4 {
+        display: block;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-5 {
+        display: block;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-6 {
+        display: block;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    #serv-block-7 {
+        display: block;
+        width: 270px;
+        height: 313.88px;
+    }
+
+    .serv-block {
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
+        transition: all .5s ease;
+    }
+
+    .serv-block:hover {
+        p {
+            color: $white;
+        }
+        h2 {
+            color:$white;
+        }
+        #serv-icon-circle {
+            background-color:$white;
+        }
+        transition: all .5s ease;
+        transform: translateY(-10px);
+        border-color: transparent;
+    }   
+
+    #serv-block-1:hover {
+        background-color: $style-bes;
+        #block-1-but {
+            background-color: $white;
+            color: $style-bes; 
+        }
+        #serv-icon-1 {
+            color:$style-bes;
+        }
+    }
+
+    #serv-block-2:hover {
+        background-color: $style-it;
+        #block-2-but {
+            background-color: $white;
+            color: $style-it; 
+        }
+        #serv-icon-2 {
+            color:$style-it;
+        }
+    }
+
+    #serv-block-3:hover {
+        background-color: $style-dig;
+        #block-3-but {
+            background-color: $white;
+            color: $style-dig; 
+        }
+        #serv-icon-3 {
+            color:$style-dig;
+        }
+    }
+
+    #serv-block-4:hover {
+        background-color: $style-tel;
+        #block-4-but {
+            background-color: $white;
+            color: $style-tel; 
+        }
+        #serv-icon-4 {
+            color:$style-tel;
+        }
+    }
+
+    #serv-block-5:hover {
+        background-color: $style-web;
+        #block-5-but {
+            background-color: $white;
+            color: $style-web; 
+        }
+        #serv-icon-5 {
+            color:$style-web;
+        }
+    }
+
+    #serv-block-6:hover {
+        background-color: $style-cyb;
+        #block-6-but {
+            background-color: $white;
+            color: $style-cyb; 
+        }
+        #serv-icon-6 {
+            color:$style-cyb;
+        }
+    }
+
+    #serv-block-7:hover {
+        background-color: $style-dev;
+        #block-7-but {
+            background-color: $white;
+            color: $style-dev; 
+        }
+        #serv-icon-7 {
+            color:$style-dev;
+        }
+    }
+
+    .serv-but {
+        height:auto;
+        line-height: 35px;
+        font-size: 1.063rem;
+        padding: 5 15px;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 3px;
+    }
+
+    #block-1-but {
+        background-color: $style-bes;
+    }
+
+    #block-2-but {
+        background-color: $style-it;
+    }
+
+    #block-3-but {
+        background-color: $style-dig;
+    }
+
+    #block-4-but {
+        background-color: $style-tel;
+    }
+
+    #block-5-but {
+        background-color: $style-web;
+    }
+
+    #block-6-but {
+        background-color: $style-cyb;
+    }
+
+    #block-7-but {
+        background-color: $style-dev;
+    }
+
+}

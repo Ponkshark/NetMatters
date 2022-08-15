@@ -1,0 +1,153 @@
+/*! Header */
+
+.header-block-1 {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+#header-img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.header-block-2 {
+    margin-left: 0;
+}
+
+
+#support-btn {
+    cursor: pointer;
+    display:inline-block;
+    color: $white;
+    font-size: 18px;
+    height:56px;
+    width:141.6px;
+    padding: 5 15px;
+    margin-left:80px;
+    border: 1px solid transparent;
+    background-color: $style-it;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#contact-btn {
+    cursor: pointer;
+    display:inline-block;
+    color: $white;
+    font-size: 18px;
+    height: 56px;
+    width: 149.413px;
+    padding: 5 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    background-color: #999aa2;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#query {
+    display: inline-block;
+    height: 56px;
+    width: 240px;
+    padding: 5 15px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+
+.form2-cont {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#query2 {
+    display: inline-block;
+    height: 47px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 40px;
+    outline: 1px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    background-color: rgba(0,0,0,.1);
+    color: #555;
+}
+
+.q2-but {
+    cursor: pointer;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    z-index: 5;
+    .fa-magnifying-glass {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: black;
+    }
+    
+}
+
+#form {
+    width:240px;
+}
+
+#search-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 56px;
+    width: 63px;
+    padding: 7 20px;
+    margin-left: -5px;
+    margin-right: 20px;
+    border: 0px solid transparent;
+    background-color: #999aa2;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#telephone-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 23px;
+    height: 56px;
+    width: 63px;
+    padding: 5 15px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#menu-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 23px;
+    height: 56px;
+    width: 63px;
+    padding: 5 15px;
+    border: 0px solid transparent;
+    background-color: $off-black;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+#support-btn:hover, #contact-btn:hover, #search-btn:hover, #telephone-btn:hover, #menu-btn:hover {
+    filter: brightness(90%)
+}

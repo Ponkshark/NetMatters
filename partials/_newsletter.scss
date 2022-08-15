@@ -1,0 +1,105 @@
+/*! Newsletter */
+
+.newsletter {
+    background-color: #ddd;
+    padding-bottom: 50px;
+}
+
+.newsletter-cont {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-email-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .news-title-item {
+        padding-top: 50px;
+        width: 1170px;
+    }
+
+    .name-email-item {
+        width: 570px;
+        margin-top: -20px;
+
+        #yourname, #youremail {
+            height: 47px;
+            width: 570px;
+            border: 1px solid #e5e5e5;
+            border-radius: 2px;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        }
+
+        #yourname:focus, #youremail:focus {
+            border-color: #5bc0de;
+            outline: 0;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(91 192 222 / 60%);
+        }
+
+        .name-email-label:after {
+            font-weight: 100;
+            content:" *";
+            color: #d24d57;
+        }
+
+        label {
+            font-weight: 600;
+            color: $off-black;
+        }
+
+    }
+
+    .checkbox-item {
+        display: flex;
+        margin-top: -20px;
+        align-content: left;
+        width: 1170px;
+        label {
+            font-weight: 600;
+            line-height: 32px;
+            color: $off-black;
+        }
+    }
+
+    .sub-item {
+        width: 1170px;
+    }
+}
+
+input[type=checkbox] {
+    width: 38px;
+    height: 38px;
+    // transform: scale(2.4615);
+    margin-right: 20px;
+}
+
+.newsletter-form {
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: .4px;
+    }
+
+    .subscribe-but {
+        height: 47px;
+        width: 120.650px;
+        cursor: pointer;
+        padding: 5 15px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1.063rem;
+        font-weight: 400;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color: #fff;
+        background-color: $off-black;
+        border-color: $off-black;
+    }
+}

@@ -1,0 +1,38 @@
+/*! Banner */
+
+.banner-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 80px;
+    justify-content: center;
+
+    img {
+        filter: grayscale(1);
+    }
+
+    img:hover {
+        filter: grayscale(0);
+    }
+
+}
+
+.view-all {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    a, .fa-arrow-right {
+        font-weight: 600;
+        font-size: 1.625rem;
+        color: $off-black;
+        text-decoration: none;
+        
+    }
+    a:hover {
+            text-decoration: underline;
+            .fa-arrow-right {
+                text-decoration: underline;
+            }
+
+    }
+}
