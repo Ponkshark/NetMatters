@@ -598,6 +598,12 @@
      object-fit: fill;
   overflow: hidden;
 }
+.slider-container img {
+  filter: grayscale(1);
+}
+.slider-container img:hover {
+  filter: grayscale(0);
+}
 
 /*! Welcome */
 .welcome-container {
@@ -755,6 +761,9 @@
   transition: all 0.5s ease;
   transform: translateY(-10px);
 }
+.news-container .news-link {
+  display: block;
+}
 .news-container .news-box-1 h3 {
   color: #4183d7;
 }
@@ -805,6 +814,7 @@
   background-color: #926fb1;
 }
 .news-container .news-but-1, .news-container .news-but-2, .news-container .news-but-3 {
+  cursor: pointer;
   color: #fff;
   height: auto;
   line-height: 35px;

@@ -8,4 +8,11 @@
     gap: 100px;
     object-fit:fill;
     overflow: hidden;
+    img {
+        filter: grayscale(1);
+    }
+
+    img:hover {
+        filter: grayscale(0);
+    }
 }
