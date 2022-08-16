@@ -1138,8 +1138,8 @@ input[type=checkbox] {
   font-size: 0.8125rem;
   border-top: 1px solid #888;
   padding-top: 15px;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 1143px;
+  margin: auto;
   white-space: nowrap;
 }
 .footer-cont .footer-bottom span {
@@ -1354,6 +1354,9 @@ input[type=checkbox] {
   .footer-cont {
     height: 620.76px;
   }
+  .footer-cont .footer-bottom {
+    width: 923.8px;
+  }
   .footer-cont .footer-row #footer-item-1 {
     margin-left: 170px;
     margin-right: 85px;
@@ -1522,6 +1525,9 @@ input[type=checkbox] {
   .footer-cont {
     height: 620.76px;
   }
+  .footer-cont .footer-bottom {
+    width: 720px;
+  }
   .footer-cont .footer-row #footer-item-1 {
     margin-left: 90px;
     margin-right: 45px;
@@ -1674,6 +1680,11 @@ input[type=checkbox] {
   }
   .footer-cont {
     height: 630.33px;
+  }
+  .footer-cont .footer-bottom {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .footer-cont .footer-row #footer-item-1 {
     margin-left: 0px;
