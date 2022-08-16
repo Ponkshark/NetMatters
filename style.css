@@ -344,6 +344,12 @@
   justify-content: center;
   gap: 30px;
 }
+.serv-container .serv-header {
+  text-align: left;
+  font-weight: 600;
+  font-size: 2.7rem;
+  width: 1164px;
+}
 .serv-container h2 {
   font-size: 1.3rem;
   font-weight: 400;
@@ -1218,6 +1224,9 @@ input[type=checkbox] {
   .dropdown-content a {
     font-size: 0.8125rem;
   }
+  .serv-container .serv-header {
+    width: 940px;
+  }
   .serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3 {
     display: block;
     width: 291.325px;
@@ -1336,6 +1345,9 @@ input[type=checkbox] {
   }
   .img-container {
     filter: brightness(50%);
+  }
+  .serv-container .serv-header {
+    width: 718px;
   }
   .serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3 {
     display: block;
@@ -1480,6 +1492,9 @@ input[type=checkbox] {
   }
   #telephone-btn {
     display: inline-block;
+  }
+  .serv-container .serv-header {
+    margin-left: 15px;
   }
   .serv-container .serv-block {
     margin-left: 15px;
