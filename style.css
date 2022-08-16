@@ -1043,6 +1043,9 @@ input[type=checkbox] {
   background-color: #333645;
   border-color: #333645;
 }
+.newsletter-form .subscribe-but:hover {
+  background-color: #22242e;
+}
 
 /*! Footer */
 .footer-cont {
