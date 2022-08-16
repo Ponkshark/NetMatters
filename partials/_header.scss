@@ -17,6 +17,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    button {
+        display: inline-block;
+        height: 56px;
+        border-radius: 3px;
+        font-weight: 400;
+    }
 }
 
 .header-block-2 {
@@ -27,27 +33,19 @@
 
 
 #support-btn {
-    cursor: pointer;
-    display:inline-block;
     color: $white;
     font-size: 18px;
-    height:56px;
-    width:141.6px;
+    width: 141.6px;
     padding: 5 15px;
     margin-left:80px;
     border: 1px solid transparent;
     background-color: $style-it;
     text-transform: uppercase;
-    border-radius: 3px;
-    font-weight: 400;
 }
 
 #contact-btn {
-    cursor: pointer;
-    display:inline-block;
     color: $white;
     font-size: 18px;
-    height: 56px;
     width: 149.413px;
     padding: 5 15px;
     margin-left: 20px;
@@ -55,8 +53,6 @@
     border: 1px solid transparent;
     background-color: #999aa2;
     text-transform: uppercase;
-    border-radius: 3px;
-    font-weight: 400;
 }
 
 #query {
@@ -101,7 +97,6 @@
 }
 
 .q2-but {
-    cursor: pointer;
     float: right;
     border: 0px solid transparent;
     background-color: transparent;
@@ -112,10 +107,7 @@
 }
 
 #search-btn {
-    cursor: pointer;
-    display: inline-block;
     font-size: 18px;
-    height: 56px;
     width: 63px;
     padding: 7 20px;
     transform: translateY(-1px);
@@ -123,35 +115,23 @@
     margin-right: 20px;
     border: 0px solid transparent;
     background-color: #999aa2;
-    border-radius: 3px;
-    font-weight: 400;
 }
 
 #telephone-btn {
-    cursor: pointer;
-    display: inline-block;
     font-size: 23px;
-    height: 56px;
     width: 63px;
     padding: 5 15px;
     margin-left: 20px;
     background-color: transparent;
     border: 0px solid transparent;
-    border-radius: 3px;
-    font-weight: 400;
 }
 
 #menu-btn {
-    cursor: pointer;
-    display: inline-block;
     font-size: 23px;
-    height: 56px;
     width: 63px;
     padding: 5 15px;
     border: 0px solid transparent;
     background-color: $off-black;
-    border-radius: 3px;
-    font-weight: 400;
 }
 
 

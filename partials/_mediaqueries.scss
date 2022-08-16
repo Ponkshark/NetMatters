@@ -22,43 +22,13 @@
 
     .serv-container {
 
-        #serv-block-1 {
+        #serv-block-1, #serv-block-2, #serv-block-3 {
             display: block;
             width: 291.325px;
             height: 334.725px;
         }
 
-        #serv-block-2 {
-            display: block;
-            width: 291.325px;
-            height: 334.725px;
-        }
-
-        #serv-block-3 {
-            display: block;
-            width: 291.325px;
-            height: 334.725px;
-        }
-
-        #serv-block-4 {
-            display: block;
-            width: 453px;
-            height: 289.875px;
-        }
-
-        #serv-block-5 {
-            display: block;
-            width: 453px;
-            height: 289.875px;
-        }
-
-        #serv-block-6 {
-            display: block;
-            width: 453px;
-            height: 289.875px;
-        }
-
-        #serv-block-7 {
+        #serv-block-4, #serv-block-5, #serv-block-6, #serv-block-7 {
             display: block;
             width: 453px;
             height: 289.875px;
@@ -114,7 +84,7 @@
     }
     .name-email-cont {
 
-        .news-title-item {
+        .news-title-item, .checkbox-item, .sub-item {
             width: 940px;
         }
     
@@ -124,15 +94,7 @@
             #yourname, #youremail {
                     width: 455px;
             }
-        }
-        .checkbox-item {
-            width: 940px;
-        }
-        .sub-item {
-            width: 940px;
-        }
-
-            
+        }   
     }
 
     .footer-cont {
@@ -211,6 +173,11 @@
       display:none;
     }
 
+    #search-btn {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
     
     
     #query {
@@ -228,37 +195,13 @@
 
     .serv-container {
 
-        #serv-block-1 {
+        #serv-block-1, #serv-block-2, #serv-block-3 {
             display: block;
             width: 718px;
             height: 290.725px;
         }
 
-        #serv-block-2 {
-            display: block;
-            width: 718px;
-            height: 290.725px;
-        }
-
-        #serv-block-3 {
-            display: block;
-            width: 718px;
-            height: 290.725px;
-        }
-
-        #serv-block-4 {
-            display: block;
-            width: 342px;
-            height: 289.875px;
-        }
-
-        #serv-block-5 {
-            display: block;
-            width: 342px;
-            height: 289.875px;
-        }
-
-        #serv-block-6 {
+        #serv-block-4, #serv-block-5, #serv-block-6 {
             display: block;
             width: 342px;
             height: 289.875px;
@@ -285,7 +228,6 @@
     }
 
     .welcome-container {
-        //height: 1024.8px;
         height: auto;
         #welc-box {
             max-width: 750px;
@@ -356,23 +298,17 @@
 
     .name-email-cont {
 
-        .news-title-item {
+        .news-title-item, .name-email-item, .checkbox-item, .sub-item {
             width: 720px;
         }
     
         .name-email-item {
-            width: 720px;
 
             #yourname, #youremail {
                     width: 720px;
             }
         }
-        .checkbox-item {
-            width: 720px;
-        }
-        .sub-item {
-            width: 720px;
-        }
+
     }
 
     .footer-cont {
@@ -439,25 +375,15 @@
 
 @media only screen and (min-width: 767px) {
 
-    .form2-cont {
+    .form2-cont, .view-all, .copyright-small {
         display: none;
     }
-
-    .view-all { 
-        display: none;
-    }
-
-    .copyright-small {
-        display: none;
-    }
-
 }
   
 @media only screen and (max-width: 767px) {
 
     #header-img {
         height: auto;
-
     }
 
     .main-header {
@@ -481,43 +407,7 @@
             margin-right: 15px;
         }
 
-        #serv-block-1 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-2 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-3 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-4 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-5 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-6 {
-            display: block;
-            width: 661.6px;
-            height: 289.875px;
-        }
-
-        #serv-block-7 {
+        #serv-block-1, #serv-block-2, #serv-block-3, #serv-block-4, #serv-block-5, #serv-block-6, #serv-block-7 {
             display: block;
             width: 661.6px;
             height: 289.875px;
@@ -568,22 +458,15 @@
 
     .name-email-cont {
 
-        .news-title-item {
+        .news-title-item, .name-email-item, .checkbox-item, .sub-item {
             width: 100%;
         }
     
         .name-email-item {
-            width: 100%;
 
             #yourname, #youremail {
                     width: 100%;
             }
-        }
-        .checkbox-item {
-            width: 100%;
-        }
-        .sub-item {
-            width: 100%;
         }
     }
 
@@ -598,27 +481,7 @@
 
         .footer-row {
 
-            #footer-item-1 {
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-        
-            #footer-item-2 {
-                margin-left: 0px;
-                margin-right: 0px;         
-            }
-        
-            #footer-item-3 {
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-        
-            #footer-item-4 {
-                margin-left: 0px;
-                margin-right: 0px;
-            }
-        
-            #footer-item-5 {
+            #footer-item-1, #footer-item-2, #footer-item-3, #footer-item-4, #footer-item-5 {
                 margin-left: 0px;
                 margin-right: 0px;
             }

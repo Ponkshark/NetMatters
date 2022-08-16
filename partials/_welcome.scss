@@ -8,6 +8,15 @@
     flex-wrap: wrap;
     gap: 30px;
 
+    button {
+        cursor: pointer;
+        height: 55px;
+        font-size: 20px;
+        color: $white;
+        border: 1px solid transparent;
+        border-radius: 6px;
+    }
+
     #welc-box {
         width: 580px;
     }
@@ -52,12 +61,7 @@
 
     .welc-read-but {
         width: 202.75px;
-        height: 55px;
-        font-size: 20px;
         background-color: #272936;
-        color: $white;
-        border: 1px solid transparent;
-        border-radius: 6px;
     }
 
     .welc-read-but:hover {
@@ -66,14 +70,9 @@
 
     .welc-goog-but {
         width: 263.188px;
-        height: 55px;
         margin-right: 7px;
         margin-bottom: 20px;
-        font-size: 20px;
         background-color: #4387f6;
-        color: $white;
-        border: 1px solid transparent;
-        border-radius: 6px;
     }
 
     .welc-goog-but:hover {
@@ -82,13 +81,8 @@
 
     .welc-trust-but {
         width: 294.05px;
-        height: 55px;
-        font-size: 20px;
         margin-bottom: 50px;
         background-color: #00b67b;
-        color: $white;
-        border: 1px solid transparent;
-        border-radius: 6px;
     }
 
     .welc-trust-but:hover {

@@ -17,6 +17,12 @@
   justify-content: center;
   flex-wrap: nowrap;
 }
+.main-header button {
+  display: inline-block;
+  height: 56px;
+  border-radius: 3px;
+  font-weight: 400;
+}
 
 .header-block-2 {
   margin-left: 0;
@@ -25,27 +31,19 @@
 }
 
 #support-btn {
-  cursor: pointer;
-  display: inline-block;
   color: #fff;
   font-size: 18px;
-  height: 56px;
   width: 141.6px;
   padding: 5 15px;
   margin-left: 80px;
   border: 1px solid transparent;
   background-color: #4183d7;
   text-transform: uppercase;
-  border-radius: 3px;
-  font-weight: 400;
 }
 
 #contact-btn {
-  cursor: pointer;
-  display: inline-block;
   color: #fff;
   font-size: 18px;
-  height: 56px;
   width: 149.413px;
   padding: 5 15px;
   margin-left: 20px;
@@ -53,8 +51,6 @@
   border: 1px solid transparent;
   background-color: #999aa2;
   text-transform: uppercase;
-  border-radius: 3px;
-  font-weight: 400;
 }
 
 #query {
@@ -97,7 +93,6 @@
 }
 
 .q2-but {
-  cursor: pointer;
   float: right;
   border: 0px solid transparent;
   background-color: transparent;
@@ -108,10 +103,7 @@
 }
 
 #search-btn {
-  cursor: pointer;
-  display: inline-block;
   font-size: 18px;
-  height: 56px;
   width: 63px;
   padding: 7 20px;
   transform: translateY(-1px);
@@ -119,35 +111,23 @@
   margin-right: 20px;
   border: 0px solid transparent;
   background-color: #999aa2;
-  border-radius: 3px;
-  font-weight: 400;
 }
 
 #telephone-btn {
-  cursor: pointer;
-  display: inline-block;
   font-size: 23px;
-  height: 56px;
   width: 63px;
   padding: 5 15px;
   margin-left: 20px;
   background-color: transparent;
   border: 0px solid transparent;
-  border-radius: 3px;
-  font-weight: 400;
 }
 
 #menu-btn {
-  cursor: pointer;
-  display: inline-block;
   font-size: 23px;
-  height: 56px;
   width: 63px;
   padding: 5 15px;
   border: 0px solid transparent;
   background-color: #333645;
-  border-radius: 3px;
-  font-weight: 400;
 }
 
 #support-btn:hover, #contact-btn:hover, #search-btn:hover, #telephone-btn:hover, #menu-btn:hover {
@@ -431,37 +411,12 @@
   border-radius: 50%;
   font-size: 2.9em;
 }
-.serv-container #serv-block-1 {
+.serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3 {
   display: block;
   width: 370px;
   height: 314.73px;
 }
-.serv-container #serv-block-2 {
-  display: block;
-  width: 370px;
-  height: 314.73px;
-}
-.serv-container #serv-block-3 {
-  display: block;
-  width: 370px;
-  height: 314.73px;
-}
-.serv-container #serv-block-4 {
-  display: block;
-  width: 270px;
-  height: 313.88px;
-}
-.serv-container #serv-block-5 {
-  display: block;
-  width: 270px;
-  height: 313.88px;
-}
-.serv-container #serv-block-6 {
-  display: block;
-  width: 270px;
-  height: 313.88px;
-}
-.serv-container #serv-block-7 {
+.serv-container #serv-block-4, .serv-container #serv-block-5, .serv-container #serv-block-6, .serv-container #serv-block-7 {
   display: block;
   width: 270px;
   height: 313.88px;
@@ -614,6 +569,14 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+.welcome-container button {
+  cursor: pointer;
+  height: 55px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
 .welcome-container #welc-box {
   width: 580px;
 }
@@ -648,39 +611,24 @@
 }
 .welcome-container .welc-read-but {
   width: 202.75px;
-  height: 55px;
-  font-size: 20px;
   background-color: #272936;
-  color: #fff;
-  border: 1px solid transparent;
-  border-radius: 6px;
 }
 .welcome-container .welc-read-but:hover {
   background-color: #121318;
 }
 .welcome-container .welc-goog-but {
   width: 263.188px;
-  height: 55px;
   margin-right: 7px;
   margin-bottom: 20px;
-  font-size: 20px;
   background-color: #4387f6;
-  color: #fff;
-  border: 1px solid transparent;
-  border-radius: 6px;
 }
 .welcome-container .welc-goog-but:hover {
   background-color: #166af4;
 }
 .welcome-container .welc-trust-but {
   width: 294.05px;
-  height: 55px;
-  font-size: 20px;
   margin-bottom: 50px;
   background-color: #00b67b;
-  color: #fff;
-  border: 1px solid transparent;
-  border-radius: 6px;
 }
 .welcome-container .welc-trust-but:hover {
   background-color: #009b69;
@@ -1270,37 +1218,12 @@ input[type=checkbox] {
   .dropdown-content a {
     font-size: 0.8125rem;
   }
-  .serv-container #serv-block-1 {
+  .serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3 {
     display: block;
     width: 291.325px;
     height: 334.725px;
   }
-  .serv-container #serv-block-2 {
-    display: block;
-    width: 291.325px;
-    height: 334.725px;
-  }
-  .serv-container #serv-block-3 {
-    display: block;
-    width: 291.325px;
-    height: 334.725px;
-  }
-  .serv-container #serv-block-4 {
-    display: block;
-    width: 453px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-5 {
-    display: block;
-    width: 453px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-6 {
-    display: block;
-    width: 453px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-7 {
+  .serv-container #serv-block-4, .serv-container #serv-block-5, .serv-container #serv-block-6, .serv-container #serv-block-7 {
     display: block;
     width: 453px;
     height: 289.875px;
@@ -1336,7 +1259,7 @@ input[type=checkbox] {
   .banner-container #banner-item-3 {
     padding-right: 10px;
   }
-  .name-email-cont .news-title-item {
+  .name-email-cont .news-title-item, .name-email-cont .checkbox-item, .name-email-cont .sub-item {
     width: 940px;
   }
   .name-email-cont .name-email-item {
@@ -1344,12 +1267,6 @@ input[type=checkbox] {
   }
   .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
     width: 455px;
-  }
-  .name-email-cont .checkbox-item {
-    width: 940px;
-  }
-  .name-email-cont .sub-item {
-    width: 940px;
   }
   .footer-cont {
     height: 620.76px;
@@ -1406,6 +1323,10 @@ input[type=checkbox] {
   #support-btn, #contact-btn, #telephone-btn {
     display: none;
   }
+  #search-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
   #query {
     display: inline-block;
     width: 174px;
@@ -1416,32 +1337,12 @@ input[type=checkbox] {
   .img-container {
     filter: brightness(50%);
   }
-  .serv-container #serv-block-1 {
+  .serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3 {
     display: block;
     width: 718px;
     height: 290.725px;
   }
-  .serv-container #serv-block-2 {
-    display: block;
-    width: 718px;
-    height: 290.725px;
-  }
-  .serv-container #serv-block-3 {
-    display: block;
-    width: 718px;
-    height: 290.725px;
-  }
-  .serv-container #serv-block-4 {
-    display: block;
-    width: 342px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-5 {
-    display: block;
-    width: 342px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-6 {
+  .serv-container #serv-block-4, .serv-container #serv-block-5, .serv-container #serv-block-6 {
     display: block;
     width: 342px;
     height: 289.875px;
@@ -1507,19 +1408,10 @@ input[type=checkbox] {
   #ban-pop-4 {
     transform: translate(-25px, -220px);
   }
-  .name-email-cont .news-title-item {
-    width: 720px;
-  }
-  .name-email-cont .name-email-item {
+  .name-email-cont .news-title-item, .name-email-cont .name-email-item, .name-email-cont .checkbox-item, .name-email-cont .sub-item {
     width: 720px;
   }
   .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
-    width: 720px;
-  }
-  .name-email-cont .checkbox-item {
-    width: 720px;
-  }
-  .name-email-cont .sub-item {
     width: 720px;
   }
   .footer-cont {
@@ -1570,13 +1462,7 @@ input[type=checkbox] {
   }
 }
 @media only screen and (min-width: 767px) {
-  .form2-cont {
-    display: none;
-  }
-  .view-all {
-    display: none;
-  }
-  .copyright-small {
+  .form2-cont, .view-all, .copyright-small {
     display: none;
   }
 }
@@ -1599,37 +1485,7 @@ input[type=checkbox] {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .serv-container #serv-block-1 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-2 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-3 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-4 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-5 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-6 {
-    display: block;
-    width: 661.6px;
-    height: 289.875px;
-  }
-  .serv-container #serv-block-7 {
+  .serv-container #serv-block-1, .serv-container #serv-block-2, .serv-container #serv-block-3, .serv-container #serv-block-4, .serv-container #serv-block-5, .serv-container #serv-block-6, .serv-container #serv-block-7 {
     display: block;
     width: 661.6px;
     height: 289.875px;
@@ -1663,19 +1519,10 @@ input[type=checkbox] {
   .banner-container {
     display: none;
   }
-  .name-email-cont .news-title-item {
-    width: 100%;
-  }
-  .name-email-cont .name-email-item {
+  .name-email-cont .news-title-item, .name-email-cont .name-email-item, .name-email-cont .checkbox-item, .name-email-cont .sub-item {
     width: 100%;
   }
   .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
-    width: 100%;
-  }
-  .name-email-cont .checkbox-item {
-    width: 100%;
-  }
-  .name-email-cont .sub-item {
     width: 100%;
   }
   .footer-cont {
@@ -1686,23 +1533,7 @@ input[type=checkbox] {
     margin-left: 2%;
     margin-right: 2%;
   }
-  .footer-cont .footer-row #footer-item-1 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .footer-cont .footer-row #footer-item-2 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .footer-cont .footer-row #footer-item-3 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .footer-cont .footer-row #footer-item-4 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .footer-cont .footer-row #footer-item-5 {
+  .footer-cont .footer-row #footer-item-1, .footer-cont .footer-row #footer-item-2, .footer-cont .footer-row #footer-item-3, .footer-cont .footer-row #footer-item-4, .footer-cont .footer-row #footer-item-5 {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1728,6 +1559,10 @@ input[type=checkbox] {
   font-size: 1rem;
   letter-spacing: 0.4px;
   overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*! Overarching Text Properties */
