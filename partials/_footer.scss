@@ -3,6 +3,8 @@
 .footer-cont {
     height: 393.16px;
     background-color: $off-black;
+    padding-bottom: 50px;
+    border-bottom: 100px;
 
     .footer-row {
         display: flex;
@@ -79,7 +81,7 @@
         button {
             background-color: transparent;
             border: none;
-            padding: 7px 10px 10px;
+            padding: 10px;
             height: 37.56px;
             width: 32.75px;
         }

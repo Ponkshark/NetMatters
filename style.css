@@ -54,6 +54,7 @@
 }
 
 #query {
+  color: #555;
   display: inline-block;
   height: 56px;
   width: 240px;
@@ -63,9 +64,10 @@
 }
 
 .form2-cont {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: -4px;
   position: relative;
 }
 .form2-cont .fa-magnifying-glass {
@@ -200,6 +202,7 @@
   border-bottom-right-radius: 10px;
 }
 .dropdown-content a {
+  line-height: 1.313rem;
   font-size: 1rem;
 }
 
@@ -717,7 +720,7 @@
   margin-bottom: 0px;
   width: 370px;
   position: relative;
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 .news-container #news-box .news-big-img {
   height: auto;
@@ -941,11 +944,14 @@
   margin-top: -20px;
 }
 .name-email-cont .name-email-item #yourname, .name-email-cont .name-email-item #youremail {
+  color: #555;
+  padding: 5px 15px;
   height: 47px;
   width: 570px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #ccc;
   border-radius: 2px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+  transition: border-color 0.15s;
 }
 .name-email-cont .name-email-item #yourname:focus, .name-email-cont .name-email-item #youremail:focus {
   border-color: #5bc0de;
@@ -965,7 +971,7 @@
   cursor: pointer;
   color: #333645;
   display: flex;
-  margin-top: -20px;
+  margin-top: -15px;
   align-content: left;
   width: 1170px;
   font-weight: 600;
@@ -1066,6 +1072,8 @@ input[type=checkbox] {
 .footer-cont {
   height: 393.16px;
   background-color: #333645;
+  padding-bottom: 50px;
+  border-bottom: 100px;
 }
 .footer-cont .footer-row {
   display: flex;
@@ -1132,7 +1140,7 @@ input[type=checkbox] {
 .footer-cont .footer-bottom button {
   background-color: transparent;
   border: none;
-  padding: 7px 10px 10px;
+  padding: 10px;
   height: 37.56px;
   width: 32.75px;
 }
@@ -1341,6 +1349,9 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 992px) {
+  .main-header {
+    margin-bottom: -10px;
+  }
   .main-nav {
     display: none;
   }
@@ -1614,5 +1625,9 @@ h2 {
 p {
   color: #fff;
   font-size: 1.625rem;
+  font-weight: 600;
+}
+
+strong {
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
