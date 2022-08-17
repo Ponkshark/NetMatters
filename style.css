@@ -432,10 +432,9 @@
   border: 1px solid #ccc;
   border-radius: 15px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 .serv-container .serv-block:hover {
-  transition: all 0.5s ease;
   transform: translateY(-10px);
   border-color: transparent;
 }

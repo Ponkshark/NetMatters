@@ -53,7 +53,6 @@
 
     #serv-icon-1, #serv-icon-2, #serv-icon-3, #serv-icon-4, #serv-icon-5, #serv-icon-6, #serv-icon-7 {
         color: $white;
-        // height: 65px;
         width: 65px;
         font-size: 0.6em;
         vertical-align: 5px;
@@ -117,7 +116,7 @@
         border: 1px solid #ccc;
         border-radius: 15px;
         box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
-        transition: all .5s ease;
+        transition: transform .5s ease;
     }
 
     .serv-block:hover {
@@ -130,7 +129,6 @@
         #serv-icon-circle {
             background-color:$white;
         }
-        transition: all .5s ease;
         transform: translateY(-10px);
         border-color: transparent;
     }   
