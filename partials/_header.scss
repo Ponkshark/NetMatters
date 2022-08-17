@@ -141,8 +141,12 @@
     filter: brightness(90%)
 }
 
-#query:focus, #query2:focus {
+#query:focus {
     border-color: #5bc0de;
     outline: 0;
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(91 192 222 / 60%);
+}
+
+#query2:focus {
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%);
 }

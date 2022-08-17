@@ -498,10 +498,24 @@
 
         .footer-row {
 
-            #footer-item-1, #footer-item-2, #footer-item-3, #footer-item-4, #footer-item-5 {
+            #footer-item-1 {
+                margin-left: 45px;
+                margin-right: 0px;
+            }
+
+            #footer-item-2 {
+                margin-left: 0px;
+                margin-right: 45px;
+            }
+
+            #footer-item-3, #footer-item-4, #footer-item-5 {
                 margin-left: 0px;
                 margin-right: 0px;
             }
+
+            
+
+            
         }
     }
 
@@ -513,5 +527,15 @@
 @media only screen and (max-width: 676px) {
     .footer-cont {
         height: auto;
+
+        .footer-row {
+
+            #footer-item-1, #footer-item-2 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
     }
+
+    
 }
