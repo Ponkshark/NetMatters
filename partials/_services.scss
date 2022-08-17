@@ -1,6 +1,5 @@
 /*! Our Services */
 
-
 .serv-container {
 
     display: flex;
@@ -8,6 +7,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
 
     .serv-header {
         text-align: left;
@@ -116,7 +117,7 @@
         border: 1px solid #ccc;
         border-radius: 15px;
         box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
-        transition: transform .5s ease;
+        transition: transform .5s ease, background-color .5s ease;
     }
 
     .serv-block:hover {

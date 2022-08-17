@@ -5,6 +5,11 @@
     text-align: left;
 }
 
+.test-cont-2 {
+    display: flex;
+    justify-content: center;
+}
+
 .info-text {
     h1 {
         font-size: 2.5rem;
@@ -15,16 +20,24 @@
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
+    max-width: 1300px;
     z-index: 4;
     position: absolute;
     top: 51%;
-    right: 20%;
-    transform: translate(10% , -50%);
+    margin-left: 3%;
+    //margin-right: 20%;
+    transform: translate(0% , -50%);
+}
+
+.img-container {
+    width: 100%;
+    height: 550px;
 }
 
 #main-img {
     min-height: 550px;
-    max-width: 100%;
+    max-height: 550px;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
