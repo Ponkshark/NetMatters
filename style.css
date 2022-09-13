@@ -12,10 +12,21 @@
   max-width: 100%;
 }
 
+body {
+  padding-top: 170px;
+}
+
 .main-header {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  position: fixed;
+  height: 110px;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  background-color: white;
+  z-index: 5;
+  width: 100%;
 }
 .main-header button {
   display: inline-block;
@@ -63,12 +74,24 @@
   border: 1px solid #ccc;
 }
 
+#form-2-main-cont {
+  position: fixed;
+  height: 80px;
+  z-index: 4;
+  width: 100%;
+  top: 80px;
+  transition: top 0.2s ease-in-out;
+  background-color: white;
+}
+
 .form2-cont {
   margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: -4px;
   position: relative;
+  background-color: white;
+  z-index: 6;
 }
 .form2-cont .fa-magnifying-glass {
   position: absolute;
@@ -153,11 +176,15 @@
   display: flex;
   justify-content: center;
   height: 99.01px;
-  width: auto;
   background-color: #333645;
   text-transform: uppercase;
   align-items: flex-end;
   letter-spacing: 0.4px;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  top: 120px;
+  transition: top 0.2s ease-in-out;
 }
 
 .main-nav a {
@@ -1356,6 +1383,12 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 992px) {
+  body {
+    padding-top: 85px;
+  }
+  #form-2-main-cont {
+    height: 85px;
+  }
   .main-header {
     margin-bottom: -10px;
   }
@@ -1515,13 +1548,16 @@ input[type=checkbox] {
   }
 }
 @media only screen and (max-width: 767px) {
+  body {
+    padding-top: 140px;
+  }
   #header-img {
     height: auto;
   }
   .main-header {
     justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   #search-btn, #query {
     display: none;

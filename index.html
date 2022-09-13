@@ -3,14 +3,14 @@
     <title>Netmatters</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link href="hamburgers.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d8fc1f1b84.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="slick.css">
 </head>
-<body>
-
-<header class="main-header" style="padding-top: 27px;">
+<body id="body-id">
+<header class="main-header" id="main-header-id" style="padding-top: 27px;">
 
     <div class="header-block-1">
         <a href="#"><img src="img/f-logo.png" alt="The Netmatters Logo" id="header-img"></a>
@@ -23,18 +23,36 @@
         </form>
         <button onclick="location.href = '#';" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
         <button onclick="location.href = '#';" id="telephone-btn"><i class="fa-solid fa-phone-volume fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i></button>
-        <button onclick="location.href = '#';" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <!-- <button onclick="location.href = '#';" id="menu-btn"><i class="fa-solid fa-bars"></i></button> -->
+        <button class="hamburger hamburger--spin" id="ham-id" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <!-- Only works if script is in html -->
+        <script>
+            // Look for .hamburger
+            var hamburger = document.querySelector(".hamburger");
+            // On click
+            hamburger.addEventListener("click", function() {
+              // Toggle class "is-active"
+              hamburger.classList.toggle("is-active");
+              // Do something else, like open/close menu
+            });
+        </script>
     </div>
 </header>
-<div class="form2-cont">
+<div id="form-2-main-cont">
+<div class="form2-cont" id="form2-cont-id">
 <form id="form2" style="display: inline;"> 
     <input type="text" id="query2" name="q2" placeholder="Search...">
 </form>
 <button type="submit" class="q2-but"><i class="fa-solid fa-magnifying-glass"></i></button>
 
 </div>
+</div>
 <br>
-<div class="main-nav" style="margin-top: -10px;">
+<div class="main-nav" id="main-nav-id" style="margin-top: -10px;">
     <div class="dropdown" id="dropdown-1">
         <button class="dropbtn">
     <a href="#" id="nav-1">
@@ -139,7 +157,6 @@
     </div>
     </div>
 </div>
-
 <div class="info-container">
 
     <div class="img-container"><img src="https://www.netmatters.co.uk/assets/images/thumbnails/full_height_slideshow/home-oaVs.jpg" id="main-img" alt="Two men smiling to the side"></div>

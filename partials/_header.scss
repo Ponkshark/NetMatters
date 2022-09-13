@@ -13,10 +13,21 @@
     max-width: 100%;
 }
 
+body {
+    padding-top: 170px;
+}
+
 .main-header {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    position: fixed;
+    height: 110px;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    background-color: white;
+    z-index: 5;
+    width: 100%;
     button {
         display: inline-block;
         height: 56px;
@@ -24,6 +35,7 @@
         font-weight: 400;
     }
 }
+
 
 .header-block-2 {
     margin-left: 0;
@@ -65,12 +77,25 @@
     border: 1px solid #ccc;
 }
 
+#form-2-main-cont {
+    position: fixed;
+    height: 80px;
+    z-index: 4;
+    width: 100%;
+    top: 80px;
+    transition: top 0.2s ease-in-out;
+    background-color: white;
+    
+}
+
 .form2-cont {
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: -4px;
     position: relative;
+    background-color: white;
+    z-index: 6;
 
     .fa-magnifying-glass {
         position: absolute;
@@ -106,6 +131,7 @@
 
 #form {
     width:240px;
+    
 }
 
 #search-btn {
@@ -150,3 +176,4 @@
 #query2:focus {
     box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%);
 }
+
