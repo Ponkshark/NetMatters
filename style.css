@@ -1645,6 +1645,90 @@ input[type=checkbox] {
     margin-right: 0px;
   }
 }
+.close-sidebar-overlay {
+  position: fixed;
+  z-index: 500;
+  left: 0;
+  top: 0;
+  width: calc(100% - 350px);
+  height: 100%;
+  border: 0px;
+  display: none;
+  background-color: black;
+  opacity: 0.4;
+  -webkit-animation: fadein 1.5s;
+          animation: fadein 1.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 0;
+  }
+}
+#sidebar-inner-id {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #333645; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s;
+}
+#sidebar-inner-id a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+#sidebar-inner-id .sidebar-menu-group:hover .sidebar-title {
+  background-color: #3d404e;
+}
+#sidebar-inner-id .sidebar-title {
+  padding: 20px;
+  display: block;
+  height: 56px;
+}
+#sidebar-inner-id .sidebar-menu-items li {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  height: 51px;
+  cursor: pointer;
+}
+#sidebar-inner-id .sidebar-menu-items a {
+  display: block;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
 /*! Overarching Display Properties*/
 * {
   font-family: Poppins, sans-serif;
@@ -1658,6 +1742,10 @@ input[type=checkbox] {
   font-size: 1rem;
   letter-spacing: 0.4px;
   overflow-x: hidden;
+}
+
+#body-id {
+  transition: margin-left 0.5s;
 }
 
 button {

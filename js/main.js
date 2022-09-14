@@ -37,4 +37,20 @@ window.onscroll = function() {
   oldScrollY = window.scrollY;
 }
 
+//Collapsible Sidebar
+
+function openNav() {
+  document.getElementById("sidebar-inner-id").style.width = "350px";
+  document.getElementById("body-id").style.marginRight = "350px";
+  document.getElementById("body-id").style.marginLeft = "-350px";
+  document.getElementById("body-id").style.overflow = "hidden";
+}
+
+function closeNav() {
+  document.getElementById("sidebar-inner-id").style.width = "0";
+  document.getElementById("body-id").style.marginRight = "0";
+  document.getElementById("body-id").style.marginLeft = "0";
+  document.getElementById("body-id").style.overflow = "scroll";
+}
+
 

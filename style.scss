@@ -12,7 +12,8 @@
         "partials/newsletter",
         "partials/footer",
         "partials/fawesome",
-        "partials/mediaqueries";
+        "partials/mediaqueries",
+        "partials/sidebar";
 
 /*! Overarching Display Properties*/
 
@@ -28,6 +29,10 @@
     font-size: 1rem;
     letter-spacing: 0.4px;
     overflow-x:hidden;
+}
+
+#body-id {
+    transition: margin-left 0.5s;
 }
 
 button {
