@@ -24,11 +24,11 @@
 
 #sidebar-inner-id {
     height: 100%; /* 100% Full-height */
-    width: 350; /* 0 width - change this with JavaScript */
+    width: 350px; 
     position: fixed; /* Stay in place */
     z-index: 10; /* Stay on top */
     top: 0;
-    right: -350px;
+    right: -350px;  /* Changed with Javascript to show the sidebar */
     background-color: #333645; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; 
@@ -110,7 +110,6 @@
         li {
         background-color: rgba(0,0,0,.25);
         border-top: 1px solid rgba(0, 0, 0, 0.2);
-        height: 51px;
         cursor: pointer;
         }
         a {

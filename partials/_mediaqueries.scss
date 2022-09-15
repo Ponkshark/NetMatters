@@ -169,6 +169,10 @@
         padding-top: 85px;
     }
 
+    #sidebar-inner-id {
+        width: 276px !important; 
+    }
+
     #form-2-main-cont {
         height: 85px;
     }
@@ -201,6 +205,7 @@
     #query {
       display: inline-block;
       width:174px;
+      margin-left: 50px;
     }
 
     .info-container {
