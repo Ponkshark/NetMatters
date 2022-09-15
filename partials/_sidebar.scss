@@ -24,14 +24,17 @@
 
 #sidebar-inner-id {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 350; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 10; /* Stay on top */
     top: 0;
-    right: 0;
+    right: -350px;
     background-color: #333645; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; 
+    ul {
+        list-style-type: none;
+    }
     a {
         text-decoration: none;
         color: $white;
@@ -44,10 +47,64 @@
         }
     }
 
-    .sidebar-title {
-        padding: 20px;
+    .xs-sidebar {
+        padding: 21px;
+    }
+
+    .sidebar-contact-title {
+        padding: 19px 0 18px;
+        text-align: center;
         display: block;
-        height: 56px;
+        font-size: 18px;
+        outline: 1px solid rgba(0,0,0,.25);
+        border: 1px solid hsla(0,0%,100%,.1);
+    }
+
+    .sidebar-contact-title:hover {
+        background-color: #3d404e;
+    }
+    
+
+    .service-title {
+        padding: 19px 0 18px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        outline: 1px solid rgba(0,0,0,.25);
+        border: 1px solid hsla(0,0%,100%,.1);
+    }
+
+    .sidebar-menu-services {
+        padding: 20px 0 0;
+        a {
+            font-size: 18px;
+            line-height: 1.2;
+        }
+    }
+
+    .sidebar-menu-services:hover {
+        .service-title {
+            background-color: #3d404e;
+        }
+    }
+
+    .sidebar-service-items {
+        a {
+            display: block;
+            text-align: center;
+            background-color: rgba(0,0,0,.25);
+            padding: 10px;
+            outline: 1px solid rgba(0,0,0,.25);
+            border: 1px solid hsla(0,0%,100%,.01);
+            font-size: 16px;
+        }
+    }
+
+    .sidebar-title {
+        padding: 15px 20px;
+        display: block;
+        outline: 1px solid rgba(0,0,0,.25);
+        border: 1px solid hsla(0,0%,100%,.01);
     }
     .sidebar-menu-items {
         li {

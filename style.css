@@ -1695,14 +1695,17 @@ input[type=checkbox] {
 }
 #sidebar-inner-id {
   height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
+  width: 350; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 10; /* Stay on top */
   top: 0;
-  right: 0;
+  right: -350px;
   background-color: #333645; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s;
+}
+#sidebar-inner-id ul {
+  list-style-type: none;
 }
 #sidebar-inner-id a {
   text-decoration: none;
@@ -1712,10 +1715,52 @@ input[type=checkbox] {
 #sidebar-inner-id .sidebar-menu-group:hover .sidebar-title {
   background-color: #3d404e;
 }
-#sidebar-inner-id .sidebar-title {
-  padding: 20px;
+#sidebar-inner-id .xs-sidebar {
+  padding: 21px;
+}
+#sidebar-inner-id .sidebar-contact-title {
+  padding: 19px 0 18px;
+  text-align: center;
   display: block;
-  height: 56px;
+  font-size: 18px;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid hsla(0deg, 0%, 100%, 0.1);
+}
+#sidebar-inner-id .sidebar-contact-title:hover {
+  background-color: #3d404e;
+}
+#sidebar-inner-id .service-title {
+  padding: 19px 0 18px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid hsla(0deg, 0%, 100%, 0.1);
+}
+#sidebar-inner-id .sidebar-menu-services {
+  padding: 20px 0 0;
+}
+#sidebar-inner-id .sidebar-menu-services a {
+  font-size: 18px;
+  line-height: 1.2;
+}
+#sidebar-inner-id .sidebar-menu-services:hover .service-title {
+  background-color: #3d404e;
+}
+#sidebar-inner-id .sidebar-service-items a {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid hsla(0deg, 0%, 100%, 0.01);
+  font-size: 16px;
+}
+#sidebar-inner-id .sidebar-title {
+  padding: 15px 20px;
+  display: block;
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid hsla(0deg, 0%, 100%, 0.01);
 }
 #sidebar-inner-id .sidebar-menu-items li {
   background-color: rgba(0, 0, 0, 0.25);
