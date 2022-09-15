@@ -7,9 +7,24 @@
     <link rel="stylesheet" href="owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/d8fc1f1b84.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
-    <script src="js/main.js"></script>
 </head>
 <body id="body-id">
+    <dialog id="myDialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal title">Cookies Policy</h3>
+            </div>
+            <div class="modal body">
+                <p>Our website uses cookies. This helps us provide you with a good experience on our website. To see what cookies we use and what they do, and to opt-in on non-essential cookies click "change settings". For a detailed explanation, click on "Privacy Policy" otherwise click "Accept Cookies" to enter.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-footer-row">
+                    <button>Change Settings</button>
+                    <button onclick="createCookie(); document.getElementById('myDialog').close()">Accept Cookies</button>
+                </div>
+            </div>
+        </div>
+    </dialog>
 <div id="page-container">
     <div class="sidebar-outer">
         <button onclick="closeNav()" class="close-sidebar-overlay"></button>
@@ -792,6 +807,7 @@
         </div>
     </div>
 </footer>
+<script src="js/main.js"></script>
 <script src="owl.carousel.min.js"></script>
 </body>
 

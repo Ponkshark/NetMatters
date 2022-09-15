@@ -53,4 +53,25 @@ function closeNav() {
   document.getElementById("body-id").style.overflow = "scroll";
 }
 
+//Cookies
+
+function myFunction() {
+  if (!document.cookie.split('; ').find(row => row.startsWith('cookies=accepted'))){ 
+    document.getElementById("myDialog").showModal(); 
+    document.getElementById("body-id").style.overflow = "hidden";
+  }
+} 
+
+document.addEventListener("load", myFunction());
+
+function createCookie() {
+  document.cookie = "cookies=accepted; max-age=30; path=/";
+  document.getElementById("body-id").style.overflow = "scroll";
+}
+
+//Takes window to the top on reload
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 

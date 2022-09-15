@@ -1768,6 +1768,15 @@ input[type=checkbox] {
   padding: 15px 20px;
 }
 
+dialog:modal {
+  width: 600px;
+  display: block;
+  margin: auto;
+  background-color: rgb(84, 39, 46);
+  z-index: 5;
+  position: absolute;
+}
+
 /*! Overarching Display Properties*/
 * {
   font-family: Poppins, sans-serif;
@@ -1784,7 +1793,7 @@ input[type=checkbox] {
 }
 
 #body-id {
-  transition: margin-left 0.5s;
+  transition: all 0.5s;
 }
 
 button {

@@ -13,7 +13,8 @@
         "partials/footer",
         "partials/fawesome",
         "partials/mediaqueries",
-        "partials/sidebar";
+        "partials/sidebar",
+        "partials/modal";
 
 /*! Overarching Display Properties*/
 
@@ -32,7 +33,7 @@
 }
 
 #body-id {
-    transition: margin-left 0.5s;
+    transition: all 0.5s;
 }
 
 button {
