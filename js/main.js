@@ -51,6 +51,7 @@ function closeNav() {
   document.getElementById("body-id").style.marginRight = "0";
   document.getElementById("body-id").style.marginLeft = "0";
   document.getElementById("body-id").style.overflow = "scroll";
+  document.getElementById("body-id").style.overflowX = "hidden";
 }
 
 //Cookies
@@ -67,6 +68,7 @@ document.addEventListener("load", myFunction());
 function createCookie() {
   document.cookie = "cookies=accepted; max-age=30; path=/";
   document.getElementById("body-id").style.overflow = "visible";
+  document.getElementById("body-id").style.overflowX = "hidden";
 }
 
 //Takes window to the top on reload

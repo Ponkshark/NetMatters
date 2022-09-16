@@ -9,6 +9,7 @@
   display: block;
   max-height: 75%;
   max-width: 100%;
+  z-index: 50;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   top: 0;
   transition: top 0.2s ease-in-out;
   background-color: white;
-  z-index: 5;
+  z-index: 30;
   width: 100%;
 }
 .main-header button {
@@ -76,11 +77,11 @@ body {
 #form-2-main-cont {
   position: fixed;
   height: 80px;
-  z-index: 4;
+  z-index: 40;
   width: 100%;
   top: 80px;
   transition: top 0.2s ease-in-out;
-  background-color: white;
+  background-color: #fff;
 }
 
 .form2-cont {
@@ -89,8 +90,8 @@ body {
   margin-right: 15px;
   margin-bottom: -4px;
   position: relative;
-  background-color: white;
-  z-index: 6;
+  background-color: #fff;
+  z-index: 60;
 }
 .form2-cont .fa-magnifying-glass {
   position: absolute;
@@ -114,6 +115,7 @@ body {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
   background-color: rgba(0, 0, 0, 0.1);
   color: #555;
+  z-index: 10;
 }
 
 .q2-but {
@@ -1377,11 +1379,14 @@ input[type=checkbox] {
   body {
     padding-top: 85px;
   }
+  .close-sidebar-overlay {
+    width: calc(100% - 276px) !important;
+  }
   #sidebar-inner-id {
     width: 276px !important;
   }
-  #form-2-main-cont {
-    height: 85px;
+  #sidebar-services-group {
+    display: none;
   }
   .main-header {
     margin-bottom: -10px;
@@ -1518,6 +1523,12 @@ input[type=checkbox] {
   }
 }
 @media only screen and (min-width: 992px) {
+  .xs-sidebar {
+    display: none;
+  }
+  #sidebar-support-group {
+    display: none;
+  }
   .img-container::before {
     content: "";
     position: absolute;
@@ -1541,10 +1552,21 @@ input[type=checkbox] {
   .form2-cont, .view-all, .copyright-small {
     display: none;
   }
+  #form-2-main-cont {
+    height: 0px;
+    transform: translateY(0px);
+  }
 }
 @media only screen and (max-width: 767px) {
   body {
     padding-top: 140px;
+  }
+  dialog:modal #modal-set-but, dialog:modal #modal-comf-but {
+    display: block;
+    width: 100%;
+  }
+  dialog:modal #modal-set-but {
+    margin-bottom: 30px;
   }
   #header-img {
     height: auto;
@@ -1553,6 +1575,10 @@ input[type=checkbox] {
     justify-content: space-between;
     padding-right: 15px;
     padding-left: 15px;
+  }
+  #form-2-main-cont {
+    height: 80px;
+    transform: translateY(10px);
   }
   #search-btn, #query {
     display: none;
