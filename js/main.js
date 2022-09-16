@@ -66,7 +66,7 @@ function myFunction() {
 document.addEventListener("load", myFunction());
 
 function createCookie() {
-  document.cookie = "cookies=accepted; max-age=30; path=/";
+  document.cookie = "cookies=accepted; max-age=86400; path=/";
   document.getElementById("body-id").style.overflow = "visible";
   document.getElementById("body-id").style.overflowX = "hidden";
 }
