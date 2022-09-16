@@ -66,7 +66,7 @@ document.addEventListener("load", myFunction());
 
 function createCookie() {
   document.cookie = "cookies=accepted; max-age=30; path=/";
-  document.getElementById("body-id").style.overflow = "scroll";
+  document.getElementById("body-id").style.overflow = "visible";
 }
 
 //Takes window to the top on reload
