@@ -1718,7 +1718,7 @@ input[type=checkbox] {
   height: 100%; /* 100% Full-height */
   width: 350px;
   position: fixed; /* Stay in place */
-  z-index: 10; /* Stay on top */
+  z-index: 1000; /* Stay on top */
   top: 0;
   right: -350px; /* Changed with Javascript to show the sidebar */
   background-color: #333645; /* Black*/

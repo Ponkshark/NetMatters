@@ -41,8 +41,8 @@ window.onscroll = function() {
 
 function openNav() {
   document.getElementById("sidebar-inner-id").style.right = "0px";
-  document.getElementById("body-id").style.marginRight = "350px";
-  document.getElementById("body-id").style.marginLeft = "-350px";
+  document.getElementById("body-id").style.marginRight = "276px";
+  document.getElementById("body-id").style.marginLeft = "-276px";
   document.getElementById("body-id").style.overflow = "hidden";
 }
 
