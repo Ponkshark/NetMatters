@@ -12,11 +12,6 @@
     h3 {
         font-size: 1.625rem;
     }
-    a {
-        font-size: 1.625rem;
-        color: $off-black;
-        text-decoration: none;
-    }
     .fa-arrow-right {
         color: $off-black;
     }
@@ -68,12 +63,13 @@
         font-size: 1rem;
     }
 
-    #news-box {
+    #news-box-id-1, #news-box-id-2, #news-box-id-3 {
         height: auto;
         margin-bottom: 0px;
         width: 370px;
         position: relative;
         transition: transform .5s ease;
+        cursor: pointer;
 
         .news-big-img {
             height: auto;
@@ -83,7 +79,7 @@
         }
     }
 
-    #news-box:hover {
+    #news-box-id-1:hover, #news-box-id-2:hover, #news-box-id-3:hover {
         transition: all .5s ease;
         transform: translateY(-10px);
     }
@@ -143,7 +139,7 @@
         box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
     }
 
-    #news-block-title {
+    #news-block-title-1, #news-block-title-2, #news-block-title-3 {
         height: 48px;
         width: 308px;
     }

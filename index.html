@@ -1,12 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Netmatters</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <link href="hamburgers.css" rel="stylesheet">
-    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="scss_and_stylesheet/style.css">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/d8fc1f1b84.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
 </head>
 <body id="body-id">
     <dialog id="myDialog">
@@ -30,8 +31,8 @@
         <button onclick="closeNav()" class="close-sidebar-overlay"></button>
     </div>
     <div class="sidebar-inner" id="sidebar-inner-id">
-        <ul>
-            <div class="xs-sidebar">
+        <div class="xs-sidebar">
+            <ul>
                 <li class="sidebar-contact us">
                     <a href="#" class="sidebar-contact-title">Contact Us</a>
                 </li>
@@ -193,7 +194,9 @@
                         </li>
                     </ul>
                 </li>
+            </ul>
             </div>
+            <ul>
             <li class="sidebar-menu-group" id="sidebar-services-group">
                 <a href="#" class="sidebar-title">Services</a>
                 <ul class="sidebar-menu-items">
@@ -351,12 +354,10 @@
 </div>
 <br>
 <div class="main-nav" id="main-nav-id" style="margin-top: -10px;">
-    <div class="dropdown" id="dropdown-1">
-        <button class="dropbtn">
-    <a href="#" id="nav-1">
-        <i class="fa-solid fa-grip"></i><div class="small">Bespoke</div><br>Software
-    </a>
-        </button>
+    <div class="dropdown" id="dropdown-1">    
+    <div id="nav-1" onclick="location.href='#';">
+        <i class="fa-solid fa-grip"></i><br><span class="small">Bespoke</span><br>Software
+    </div>
     <div class="dropdown-content" id="dc-1">
         <a href="#">Workflow</a>
         <a href="#">Automation</a>
@@ -368,11 +369,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-2">
-        <button class="dropbtn">
-    <a href="#" id="nav-2">
-        <i class="fa-solid fa-display"></i><div class="small">IT</div><br>Support
-    </a>
-        </button>
+    <div id="nav-2" onclick="location.href='#';">
+        <i class="fa-solid fa-display"></i><br><span class="small">IT</span><br>Support
+    </div>
     <div class="dropdown-content" id="dc-2">
         <a href="#">Managed IT</a>
         <a href="#">Business IT</a>
@@ -383,11 +382,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-3">
-        <button class="dropbtn">
-    <a href="#" id="nav-3">
-        <i class="fa-solid fa-chart-simple"></i><div class="small">Digital</div><br>Marketing
-    </a>
-        </button>
+    <div id="nav-3" onclick="location.href='#';">
+        <i class="fa-solid fa-chart-simple"></i><br><span class="small">Digital</span><br>Marketing
+    </div>
     <div class="dropdown-content" id="dc-3">
         <a href="#">Search (SEO)</a>
         <a href="#">Paid (PPC)</a>
@@ -398,11 +395,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-4">
-        <button class="dropbtn">
-    <a href="#" id="nav-4">
-        <i class="fa-solid fa-phone"></i><div class="small">Telecoms</div><br>Services
-    </a>
-        </button>
+    <div id="nav-4" onclick="location.href='#';">
+        <i class="fa-solid fa-phone"></i><br><span class="small">Telecoms</span><br>Services
+    </div>
     <div class="dropdown-content" id="dc-4">
         <a href="#">Business Mobile</a>
         <a href="#">Hosted VoIP</a>
@@ -413,11 +408,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-5">
-        <button class="dropbtn">
-    <a href="#" id="nav-5">
-        <i class="fa-solid fa-code"></i><div class="small">Web</div><br>Design
-    </a>
-        </button>
+    <div id="nav-5" onclick="location.href='#';">
+        <i class="fa-solid fa-code"></i><br><span class="small">Web</span><br>Design
+    </div>
     <div class="dropdown-content" id="dc-5">
         <a href="#">Stylish Websites</a>
         <a href="#">eCommerce Stores</a>
@@ -428,11 +421,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-6">
-        <button class="dropbtn">
-    <a href="#" id="nav-6">
-        <i class="fa-solid fa-shield-halved"></i><div class="small">Cyber</div><br>Security
-    </a>
-        </button>
+    <div id="nav-6" onclick="location.href='#';">
+        <i class="fa-solid fa-shield-halved"></i><br><span class="small">Cyber</span><br>Security
+    </div>
     <div class="dropdown-content" id="dc-6">
         <a href="#">Assessment</a>
         <a href="#">Management</a>
@@ -443,11 +434,9 @@
     </div>
     </div>
     <div class="dropdown" id="dropdown-7">
-        <button class="dropbtn">
-    <a href="#" id="nav-7">
-        <i class="fa-solid fa-graduation-cap"></i><div class="small">Developer</div><br>Course
-    </a>
-        </button>
+    <div id="nav-7" onclick="location.href='#';">
+        <i class="fa-solid fa-graduation-cap"></i><br><span class="small">Developer</span><br>Course
+    </div>
     <div class="dropdown-content" id="dc-7">
         <a href="#">Train For A Career in Tech</a>
         <a href="#">Scion Scheme Frequently Asked Questions</a>
@@ -471,77 +460,62 @@
     <h2 class="serv-header" style="margin-top: 50px;">
         <strong>Our Services</strong>
     </h2>
-    <div class= "serv-block" id="serv-block-1">
-        <a href="#" class="block-1-link">
-            <span class="icon-1-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-1" onclick="location.href='#';">
+            <span class="icon-1-span" id="serv-icon-circle-1">
             <i class="fa-solid fa-grip" id="serv-icon-1"></i>
             </span>
             <h2 class="serv-title">Bespoke Software</h2>
             <p class="serv-text">Tailored software solutions to improve business productivity and online profits.</p>
             <button class="serv-but" id="block-1-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-2">
-        <a href="#" class="block-2-link">
-            <span class="icon-2-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-2" onclick="location.href='#';">
+            <span class="icon-2-span" id="serv-icon-circle-2">
             <i class="fa-solid fa-display" id="serv-icon-2"></i>
             </span>
             <h2 class="serv-title">IT Support</h2>
             <p class="serv-text">Remotely managed IT services that is catered to your businesses needs, adds value & reduces costs.</p>
             <button class="serv-but" id="block-2-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-3">
-        <a href="#" class="block-3-link">
-            <span class="icon-3-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-3" onclick="location.href='#';">
+            <span class="icon-3-span" id="serv-icon-circle-3">
             <i class="fa-solid fa-chart-simple" id="serv-icon-3"></i>
             </span>
             <h2 class="serv-title">Digital Marketing</h2>
             <p class="serv-text">Driven brand awareness & ROI through creative digital marketing campaigns.</p>
             <button class="serv-but" id="block-3-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-4">
-        <a href="#" class="block-4-link">
-            <span class="icon-4-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-4" onclick="location.href='#';">
+            <span class="icon-4-span" id="serv-icon-circle-4">
             <i class="fa-solid fa-phone" id="serv-icon-4"></i>
             </span>
             <h2 class="serv-title">Telecoms Services</h2>
             <p class="serv-text">Stay connected with bespoke telecoms solutions when you need it most.</p>
             <button class="serv-but" id="block-4-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-5">
-        <a href="#" class="block-5-link">
-            <span class="icon-5-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-5" onclick="location.href='#';">
+            <span class="icon-5-span" id="serv-icon-circle-5">
             <i class="fa-solid fa-code" id="serv-icon-5"></i>
             </span>
             <h2 class="serv-title">Web Design</h2>
             <p class="serv-text">User-centric design for businesses looking to make a lasting impression.</p>
             <button class="serv-but" id="block-5-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-6">
-        <a href="#" class="block-6-link">
-            <span class="icon-6-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-6" onclick="location.href='#';">
+            <span class="icon-6-span" id="serv-icon-circle-6">
             <i class="fa-solid fa-shield-halved" id="serv-icon-6"></i>
             </span>
             <h2 class="serv-title">Cyber Security</h2>
             <p class="serv-text">Ensuring your online business stays secure 24/7 365 days of the year.</p>
             <button class="serv-but" id="block-6-but">READ MORE</button>
-        </a>
     </div>
-    <div class= "serv-block" id="serv-block-7">
-        <a href="#" class="block-7-link">
-            <span class="icon-7-span" id="serv-icon-circle">
+    <div class= "serv-block" id="serv-block-7" onclick="location.href='#';">
+            <span class="icon-7-span" id="serv-icon-circle-7">
             <i class="fa-solid fa-graduation-cap" id="serv-icon-7"></i>
             </span>
             <h2 class="serv-title">Developer Training</h2>
             <p class="serv-text">Have you considered a career in web development but you aren't sure where to start?</p>
             <button class="serv-but" id="block-7-but">READ MORE</button>
-        </a>
     </div>
-
 </div>
 
 <div class="slider-container owl-carousel">
@@ -573,7 +547,7 @@
 </div>
 
 <div class="welcome-container">
-    <div class="welc-box-1" id="welc-box">
+    <div class="welc-box-1" id="welc-box-id-1">
         <h2 style="margin-top: 35px; margin-bottom: 40px;"><strong>Welcome to Netmatters</strong></h2>
         <p><strong>Netmatters is a leading <a href="#">Bespoke Software</a>, <a href="#">IT Support</a>, and <a href="#">Digital
             Marketing</a> company based in the East of England with offices in <a href="#">Cambridge</a>, 
@@ -586,7 +560,7 @@
         </p>
         <button class="welc-read-but" style="margin-bottom: -25px;">READ MORE &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="welc-box-2" id="welc-box">
+    <div class="welc-box-2" id="welc-box-id-2">
         <h2 style="margin-top: 40px; margin-bottom: 30px;"><strong>What Our Clients Think</strong></h2>
         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br><br>
         <p><em>Great service. Took the reigns and did all the leg work for us. Ensured we were happy with our website
@@ -605,52 +579,51 @@
 </div>
 
 <div class="news-container">
-    <div class="news-box-1" id="news-box">
+    <div class="news-box-1" id="news-box-id-1" onclick="location.href='#';">
         <div class="news-img-cont">
         <a href="#"><img class="news-big-img" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/business-development-account-zUub.jpg" alt="Now Hiring image"></a>
         <a href="#" class="news-img-link-1">CAREERS</a>
         </div>
-        <a href="#"><div class="news-block-1">
-            <h3 id="news-block-title" style="margin-bottom: 15px;">Business Development Account Manager</h3>
+        <div class="news-block-1">
+            <h3 id="news-block-title-1" style="margin-bottom: 15px;">Business Development Account Manager</h3>
             <p style="margin-bottom: 25px;">Salary Range £35k+ per annum + Bonus + Benefits Hours 40 hours per week, 
                 Mon - Fri Location Wymondha...</p>
-            <button type="submit" class="news-but-1">READ MORE</button>
+            <button class="news-but-1">READ MORE</button>
             <div class="user-1" style="margin-top: 30px; padding-top: 30px">
                 <img src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/elliott-peacock-w8vu.jpg" alt="Picture of Elliott Peacock">
                 <p class="user-name"><strong>Posted by Elliott Peacock</strong><br>9th August 2022</p>
             </div>
-        </div></a>
+        </div>
     </div>
-    <div class="news-box-2" id="news-box">
+    <div class="news-box-2" id="news-box-id-2" onclick="location.href='#';">
         <div class="news-img-cont">
         <a href="#"><img class="news-big-img" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/the-risks-of-kEsp.jpg" alt="The risks of not being cookie compliant image"></a>
         <a href="#" class="news-img-link-2">NEWS</a>
         </div>
-        <a href="#"><div class="news-block-2">
-            <h3 id="news-block-title" style="margin-bottom: 15px;">The Risks Of Not Being Cookie Compliant</h3>
+        <div class="news-block-2">
+            <h3 id="news-block-title-2" style="margin-bottom: 15px;">The Risks Of Not Being Cookie Compliant</h3>
             <p style="margin-bottom: 25px;">Are You Cookie Compliant? We've all heard of website cookies. Most people understand the premise of...</p>
             <button class="news-but-2">READ MORE</button>
             <div class="user-2" style="margin-top: 30px; padding-top: 30px">
                 <img src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.png" alt="Netmatters logo">
                 <p class="user-name"><strong>Posted by Netmatters</strong><br>4th August 2022</p>
             </div>
-        </div></a>
+        </div>
     </div>
-    <div class="news-box-3" id="news-box">
+    <div class="news-box-3" id="news-box-id-3" onclick="location.href='#';">
         <div class="news-img-cont">
         <a href="#"><img class="news-big-img" src="https://www.netmatters.co.uk/assets/images/thumbnails/thumb/netmatters-road-to-MEcu.jpg" alt="Netmatters road to net zero image"></a>
         <a href="#" class="news-img-link-2">NEWS</a>
         </div>
-        <a href="#"><div class="news-block-3">
-            <h3 id="news-block-title" style="margin-bottom: 15px;">Netmatters Road To Net Zero</h3>
+        <div class="news-block-3">
+            <h3 id="news-block-title-3" style="margin-bottom: 15px;">Netmatters Road To Net Zero</h3>
             <p style="margin-bottom: 25px;">Driving through our 'Road to Net Zero' We have some fantastic news to share regarding our latest add...</p>
             <button class="news-but-3">READ MORE</button>
             <div class="user-3" style="margin-top: 30px; padding-top: 30px">
                 <img src="https://www.netmatters.co.uk/assets/images/thumbnails/article_contact_thumb/netmatters-ltd-VXAv.png" alt="Netmatters logo">
                 <p class="user-name"><strong>Posted by Netmatters</strong><br>3rd August 2022</p>
             </div>
-        </div></a>
-
+        </div>
     </div>
 </div>
 
@@ -710,7 +683,7 @@
                 <label class="checkbox-item">
                     <input type="checkbox" id="marketing" name="marketing" value="IAccept">
                     <span class="check-but"></span>
-                    <span for="marketing">	Please tick this box if you wish to receive marketing information from us. Please see our <a href="#">Privacy Policy</a> for more information on how we keep your data safe.</span><br>
+                    <span>	Please tick this box if you wish to receive marketing information from us. Please see our <a href="#">Privacy Policy</a> for more information on how we keep your data safe.</span><br>
                 </label>
                 <span class="sub-item">
                 <button class="subscribe-but">Subscribe</button>
@@ -758,7 +731,7 @@
                     <li>Cowley Road, Milton,</li>
                     <li>Cambridge,</li>
                     <li>CB4 0WS</li>
-                    <br>
+                    <li>&nbsp;</li>
                     <li>Tel: <a href="#">01223 37 57 72</a></li>
                 </ul>
             </div>
@@ -770,7 +743,7 @@
                     <li>Gateway 11 Business Park,</li>
                     <li>Wymondham, Norfolk,</li>
                     <li>NR18 0WZ</li>
-                    <br>
+                    <li>&nbsp;</li>
                     <li>Tel: <a href="#">01603 70 40 20</a></li>
                 </ul>
             </div>
@@ -782,7 +755,7 @@
                     <li>Beacon Park, Gorleston,</li>
                     <li>Great Yarmouth, Norfolk,</li>
                     <li>NR31 7RA</li>
-                    <br>
+                    <li>&nbsp;</li>
                     <li>Tel: <a href="#">01493 60 32 04</a></li>
                 </ul>
             </div>
@@ -802,7 +775,7 @@
     </div>
 </footer>
 <script src="js/main.js"></script>
-<script src="owl.carousel.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 </body>
 
 </html>

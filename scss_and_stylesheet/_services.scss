@@ -118,6 +118,7 @@
         border-radius: 15px;
         box-shadow: 0 3px 35px rgb(0 0 0 / 10%);
         transition: transform .5s ease, background-color .5s ease;
+        cursor: pointer;
     }
 
     .serv-block:hover {
@@ -127,7 +128,7 @@
         h2 {
             color:$white;
         }
-        #serv-icon-circle {
+        #serv-icon-circle-1, #serv-icon-circle-2, #serv-icon-circle-3, #serv-icon-circle-4, #serv-icon-circle-5, #serv-icon-circle-6, #serv-icon-circle-7 {
             background-color:$white;
         }
         transform: translateY(-10px);
@@ -215,7 +216,7 @@
         height:auto;
         line-height: 35px;
         font-size: 1.063rem;
-        padding: 5 15px;
+        padding: 5px 15px;
         color: $white;
         border: 1px solid transparent;
         border-radius: 3px;

@@ -17,40 +17,24 @@
     transition: top 0.2s ease-in-out;
 }
 
-.main-nav a {
+#nav-1, #nav-2, #nav-3, #nav-4, #nav-5, #nav-6, #nav-7 {
+    width: 167px;
     font-size: 1.125rem;
     color: $white;
     font-family: Poppins,sans-serif;
-    padding-top: 25px;
+    padding-top: 27px;
     padding-bottom: 18px;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
     letter-spacing: 0.4px;
     line-height: 1;
-}
-
-#nav-1, #nav-2, #nav-3, #nav-4, #nav-5, #nav-6, #nav-7 {
-    width: 167px;
-    text-align: center;
-    vertical-align: middle;
+    cursor: pointer;
 }  
 
 .dropdown {
     float: left;
     overflow: hidden;
-}
-  
-/* Style the dropdown button to fit inside the topnav */
-.dropdown .dropbtn {
-    display: flex;
-    text-transform: uppercase;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-family: inherit;
-    text-align: center;
-    vertical-align: middle;
 }
   
 /* Style the dropdown content (hidden by default) */

@@ -38,13 +38,13 @@
             height: 289.875px;
         }
         
-        .block-1-link, .block-2-link, .block-3-link {
+        #serv-block-1, #serv-block-2, #serv-block-3 {
             .serv-text {
                 margin-bottom: -45px;
             }
         }
 
-        .block-4-link, .block-5-link, .block-6-link, .block-7-link {
+        #serv-block-4, #serv-block-5, #serv-block-6, #serv-block-7 {
             .serv-text {
                 margin-bottom: -90px;
             }
@@ -52,7 +52,7 @@
    }
     .welcome-container {
         height: 745.6px;
-        #welc-box {
+        #welc-box-id-1, #welc-box-id-2 {
             width: 465px;
         }
     }
@@ -68,7 +68,7 @@
             display: none;
         }
 
-        #news-box {
+        #news-box-id-1, #news-box-id-2, #news-box-id-3 {
             width: 455px;
         }
     }
@@ -243,14 +243,14 @@
             height: 311.875px;
         }
         
-        .block-1-link, .block-2-link, .block-3-link, .block-4-link, .block-5-link, .block-6-link {
+        #serv-block-1, #serv-block-2, #serv-block-3, #serv-block-4, #serv-block-5, #serv-block-6 {
             .serv-text {
                 margin-bottom: -90px;
             }
         }
 
 
-        .block-7-link {
+        #serv-block-7 {
             .serv-text {
                 margin-bottom: -70px;
             }
@@ -259,7 +259,7 @@
 
     .welcome-container {
         height: auto;
-        #welc-box {
+        #welc-box-id-1, #welc-box-id-2 {
             max-width: 750px;
             width:auto;
             padding-left: 15px;
@@ -275,7 +275,7 @@
 
     .news-container {
         
-        #news-box {
+        #news-box-id-1, #news-box-id-2, #news-box-id-3 {
             width: 345px;
         }
     }
@@ -484,7 +484,7 @@
             margin-bottom: -90px;
         }
 
-        .block-7-link {
+        #serv-block-7 {
             .serv-text {
                 margin-bottom: -90px;
             }
@@ -514,7 +514,7 @@
             margin-bottom: 100px;
         }
 
-        #news-box {
+        #news-box-id-1, #news-box-id-2, #news-box-id-3 {
            width: 95%;
         }
     }
