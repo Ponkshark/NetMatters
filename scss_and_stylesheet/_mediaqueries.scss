@@ -5,6 +5,10 @@
       display: none;
     }
 
+    #header-img {
+        max-height: 80%;
+    }
+
     #nav-1, #nav-2, #nav-3, #nav-4, #nav-5, #nav-6, #nav-7 {
         width: 134.29px;
     }  
@@ -51,9 +55,10 @@
         }
    }
     .welcome-container {
+        gap: 30px;
         height: 745.6px;
         #welc-box-id-1, #welc-box-id-2 {
-            width: 465px;
+            width: 450px;
         }
     }
 
@@ -141,9 +146,11 @@
 }
   
   @media only screen and (min-width: 1260px) {
+
     #telephone-btn {
       display: none;
     }
+
     #serv-block-1 {
         margin-left: 27px;
     }
@@ -400,6 +407,7 @@
     }
 
     .info-text {
+        margin-right: 20%;
         h1 {
             font-size: 4rem;
             line-height: 5rem;
@@ -517,6 +525,11 @@
         #news-box-id-1, #news-box-id-2, #news-box-id-3 {
            width: 95%;
         }
+    }
+
+    .welcome-container {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .banner-container {

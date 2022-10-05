@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     button {
         cursor: pointer;
@@ -17,8 +19,12 @@
         border-radius: 6px;
     }
 
-    #welc-box-id-1, #welc-box-id-2 {
+    #welc-box-id-1 {
         width: 580px;
+    }
+
+    #welc-box-id-2 {
+        width: 569px;
     }
 
     h2 {

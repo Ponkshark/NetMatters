@@ -39,6 +39,10 @@
                 text-decoration: underline;
             }
         }
+        #footer-item-1 {
+            margin-right: 15px;
+            
+        }
 
         #footer-item-2 {
             margin-right: 45px;
@@ -93,6 +97,7 @@
 
         .footer-but {
             display: inline-block;
+            margin-top: -10px;
         }
 
         #footer-but-1:hover {
