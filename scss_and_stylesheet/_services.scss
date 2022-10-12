@@ -15,6 +15,23 @@
         font-weight: 600;
         font-size: 2.7rem;
         width: 1164px;
+        display: flex;
+        justify-content: space-between;
+        .service-link {
+            font-size: 26px;
+            text-decoration: none;
+            color: $off-black;
+            transform: translateY(12px);
+            .fa-arrow-right {
+                color: $off-black;
+            }
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: $off-black;
+        }
     }
 
     h2 {

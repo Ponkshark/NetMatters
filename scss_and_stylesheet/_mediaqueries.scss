@@ -24,6 +24,12 @@
         }
     }
 
+    .service-link {
+        a {
+        font-size: 26px;
+        }
+    }
+
     .serv-container {
 
         .serv-header {
@@ -469,6 +475,10 @@
 
     #telephone-btn {
       display:inline-block
+    }
+
+    .service-link {
+        display: none;
     }
 
     .serv-container {

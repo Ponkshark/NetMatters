@@ -376,6 +376,23 @@ body {
   font-weight: 600;
   font-size: 2.7rem;
   width: 1164px;
+  display: flex;
+  justify-content: space-between;
+}
+.serv-container .serv-header .service-link {
+  font-size: 26px;
+  text-decoration: none;
+  color: #333645;
+  transform: translateY(12px);
+}
+.serv-container .serv-header .service-link .fa-arrow-right {
+  color: #333645;
+}
+.serv-container .serv-header a:hover {
+  text-decoration: underline;
+}
+.serv-container .serv-header a:visited {
+  color: #333645;
 }
 .serv-container h2 {
   font-size: 1.3rem;
@@ -1273,6 +1290,9 @@ input[type=checkbox] {
   .dropdown-content a {
     font-size: 0.8125rem;
   }
+  .service-link a {
+    font-size: 26px;
+  }
   .serv-container .serv-header {
     width: 940px;
   }
@@ -1585,6 +1605,9 @@ input[type=checkbox] {
   }
   #telephone-btn {
     display: inline-block;
+  }
+  .service-link {
+    display: none;
   }
   .serv-container .serv-header {
     margin-left: 15px;
